@@ -1,0 +1,28 @@
+# OS
+Thumbs.db
+Desktop.ini
+
+# VS Code workspace noise
+.vscode/
+*.code-workspace
+
+# Python cache
+__pycache__/
+*.pyc
+
+# AI working/context artifacts (do not publish)
+p-0222.md
+project_docs/references/_pdf_text_index.md
+project_docs/references/_document_read_audit.md
+
+# Client internal documentation (do not publish)
+docs_logic_reliance/
+
+# Local Copilot custom agents and AI docs
+.github/agents/
+*.agent.md
+.github/instructions/local-system.instructions.md
+
+# Temporary exports/logs
+*.tmp
+*.log
