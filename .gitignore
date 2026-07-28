@@ -29,3 +29,7 @@ docs_logic_reliance/
 
 # KiCad local history repository
 pcb_0222/.history/
+
+# Auxiliary markdown artifacts (do not publish)
+project_docs/design/repository_new_files_report_*.md
+project_docs/**/_*.md
