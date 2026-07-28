@@ -26,3 +26,6 @@ docs_logic_reliance/
 # Temporary exports/logs
 *.tmp
 *.log
+
+# KiCad local history repository
+pcb_0222/.history/
