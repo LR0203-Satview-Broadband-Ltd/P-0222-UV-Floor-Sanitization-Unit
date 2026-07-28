@@ -16,3 +16,6 @@ This repository contains complete PCB design work for Satview Broadband Ltd. und
 
 ## Responsible Engineer
 - Ing. Vega Maximiliano
+
+## General Project Updates
+- 2026-07-27: KiCad project files are uploaded. Current schematic status: SCH without MCU (MCU section pending).
