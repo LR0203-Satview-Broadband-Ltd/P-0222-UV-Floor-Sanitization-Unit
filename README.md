@@ -18,10 +18,9 @@ This repository contains hardware design deliverables for project P-0222 (UV Flo
 
 ## Repository Structure (Current Baseline)
 This section is a controlled inventory and must be updated when directories are added, removed, or renamed.
+Only tracked and publishable project content is listed below; local ignored folders are intentionally excluded.
 
-Top-level directories:
-- `.github/`: repository-local automation and assistant instruction assets
-- `docs_logic_reliance/`: company process references and templates
+Tracked top-level directories:
 - `pcb_0222/`: KiCad project files (schematic, PCB, project configuration, and local library artifacts)
 - `project_docs/`: project evidence package (requirements, design notes, references, and datasheets)
 
@@ -54,6 +53,9 @@ Directories currently present under `project_docs/datasheets/`:
 - `tvs/`
 - `xtal/`
 - `zenner/`
+
+Naming note:
+- Some directory names reflect legacy repository naming conventions (for example, `conectors/` and `zenner/`) and are preserved as-is for traceability.
 
 ## Current Technical Status
 - Schematic and footprint assets are under active review.

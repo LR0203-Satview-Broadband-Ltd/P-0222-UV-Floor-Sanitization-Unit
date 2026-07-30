@@ -18,6 +18,9 @@ project_docs/references/_document_read_audit.md
 # Client internal documentation (do not publish)
 docs_logic_reliance/
 
+# Repository-local assistant/config files (do not publish)
+.github/
+
 # Local Copilot custom agents and AI docs
 .github/agents/
 *.agent.md
