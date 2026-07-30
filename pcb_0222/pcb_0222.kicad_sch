@@ -6,8 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "UV Floor Sanitization Unit")
-		(date "2026-07-27")
-		(rev "20260729")
+		(date "2026-07-30")
 		(company "Designed by Logic Reliance for Satview Broadband Ltd")
 	)
 	(lib_symbols
@@ -1126,6 +1125,28 @@
 				)
 			)
 			(property "TEMP. COEFF." "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "Murata Electronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DIGIKEY_PN_CT" "490-GRM188Z71A106MA73JCT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3044,6 +3065,28 @@
 					)
 				)
 			)
+			(property "MANUFACTURER" "Bel Fuse Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DIGIKEY_PN_CT" "5923-0ZCF0100AF2ACT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "0ZCF0100AF2A_0_0"
 				(polyline
 					(pts
@@ -4467,24 +4510,6 @@
 				)
 			)
 			(symbol "TC-2030-IDC_1_0"
-				(pin bidirectional line
-					(at -6.35 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -6.35 6.35 0)
 					(length 2.54)
@@ -4532,6 +4557,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5344,7 +5387,7 @@
 					)
 				)
 			)
-			(property "Value" "LTST-C190KSKT"
+			(property "Value" "LTST-C190KRKT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5365,7 +5408,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf"
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0189/LTST-C190KSKT.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5387,7 +5430,7 @@
 					)
 				)
 			)
-			(property "PARTNO" "LTST-C190KSKT"
+			(property "PARTNO" "LTST-C190KRKT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5432,6 +5475,28 @@
 				)
 			)
 			(property "EXTERNAL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DIGIKEY_PN_CT" "160-1436-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "Lite-On Inc."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5598,7 +5663,7 @@
 					)
 				)
 			)
-			(property "Footprint" "passives_smd:R_0603"
+			(property "Footprint" "leds_smd:LED_0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6023,6 +6088,125 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "M_mechanical:mounting_hole_M3_NPTH"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 0 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mechanical:mounting_hole_M3_NPTH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "M3 mounting hole for M3 standoffs (NPTH)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VER" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "REV" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "CRITICAL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "EXTERNAL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "mounting_hole_M3_NPTH_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 1.27)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -9662,8 +9846,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "R_resistors:R_0603_22.1K_1%"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10078,8 +10266,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "R_resistors:R_0603_69.8K_1%"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -13542,7 +13734,7 @@
 		(uuid "33d093ab-391c-4996-9e94-adf33a81ee46")
 	)
 	(junction
-		(at 142.24 44.45)
+		(at 143.51 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "353cbdc4-d187-4234-9bc0-39c7463d6b05")
@@ -13668,6 +13860,12 @@
 		(uuid "7317553e-bd47-4040-817b-246353b2d7da")
 	)
 	(junction
+		(at 153.67 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74cba576-d424-4770-9eaf-86000922dbf9")
+	)
+	(junction
 		(at 226.06 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13686,12 +13884,6 @@
 		(uuid "7cdc674e-53a2-45cd-b3a3-b53908cab093")
 	)
 	(junction
-		(at 153.67 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "826d20ae-c980-4970-b1d9-89c1c8a5d8fd")
-	)
-	(junction
 		(at 260.35 139.7)
 		(diameter 1.27)
 		(color 255 0 0 1)
@@ -13704,19 +13896,13 @@
 		(uuid "872d4a52-166d-4f7d-b926-03bb4b9f2321")
 	)
 	(junction
-		(at 133.35 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "878a49bd-d51d-4b69-be15-6eac7d3bb574")
-	)
-	(junction
 		(at 124.46 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87b87103-935a-4380-a1c4-b011cddc512d")
 	)
 	(junction
-		(at 142.24 55.88)
+		(at 143.51 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89a4bb7b-3d1c-4ba7-bfbe-34517d5c6d3f")
@@ -13764,10 +13950,10 @@
 		(uuid "a9c7201a-73cd-43ad-8560-83ca482335ce")
 	)
 	(junction
-		(at 133.35 55.88)
+		(at 133.35 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae5dff07-4388-4ce9-9fed-d51f7f589df8")
+		(uuid "af0c2fc4-e771-42b4-a7db-35719365f0d8")
 	)
 	(junction
 		(at 82.55 99.06)
@@ -13818,7 +14004,7 @@
 		(uuid "cd0a1ad8-8d36-4ef2-94be-2f11480b3c50")
 	)
 	(junction
-		(at 142.24 33.02)
+		(at 143.51 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd188595-d988-4bfd-93a4-44fd951026e6")
@@ -13846,6 +14032,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d51a5433-7b15-4423-8d5d-0c9c8b08bc5c")
+	)
+	(junction
+		(at 133.35 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da3c5efa-300d-426d-9471-9321a63e3228")
 	)
 	(junction
 		(at 198.12 147.32)
@@ -14146,16 +14338,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 55.88) (xy 142.24 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1778a597-cb95-4ff4-8458-d2f793ce9e45")
-	)
-	(wire
-		(pts
 			(xy 81.28 38.1) (xy 81.28 43.18)
 		)
 		(stroke
@@ -14163,6 +14345,16 @@
 			(type default)
 		)
 		(uuid "18665150-aae8-42ff-bdff-974e598ea208")
+	)
+	(wire
+		(pts
+			(xy 133.35 55.88) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b577911-d6a8-4ceb-a596-3975773df43d")
 	)
 	(wire
 		(pts
@@ -14186,7 +14378,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 44.45) (xy 142.24 43.18)
+			(xy 143.51 44.45) (xy 143.51 43.18)
 		)
 		(stroke
 			(width 0)
@@ -14600,7 +14792,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 140.97) (xy 179.07 140.97)
+			(xy 168.91 142.24) (xy 179.07 142.24)
 		)
 		(stroke
 			(width 0)
@@ -14697,6 +14889,16 @@
 			(type default)
 		)
 		(uuid "5fc2a686-dc63-4b50-b04f-81618ecf70f6")
+	)
+	(wire
+		(pts
+			(xy 179.07 132.08) (xy 179.07 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd0d4c5-0608-4253-b44c-0aad220e285a")
 	)
 	(wire
 		(pts
@@ -14985,7 +15187,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 153.67 33.02)
+			(xy 143.51 33.02) (xy 153.67 33.02)
 		)
 		(stroke
 			(width 0)
@@ -15128,7 +15330,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 44.45) (xy 151.13 44.45)
+			(xy 143.51 44.45) (xy 151.13 44.45)
 		)
 		(stroke
 			(width 0)
@@ -15258,7 +15460,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 55.88) (xy 153.67 55.88)
+			(xy 143.51 55.88) (xy 153.67 55.88)
 		)
 		(stroke
 			(width 0)
@@ -15278,7 +15480,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 55.88) (xy 142.24 54.61)
+			(xy 143.51 55.88) (xy 143.51 54.61)
 		)
 		(stroke
 			(width 0)
@@ -15295,16 +15497,6 @@
 			(type default)
 		)
 		(uuid "b22c3319-5258-4463-af47-1edcef971e81")
-	)
-	(wire
-		(pts
-			(xy 133.35 33.02) (xy 142.24 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b25cc449-9cd1-4471-b8b0-392ea30d7515")
 	)
 	(wire
 		(pts
@@ -15933,6 +16125,16 @@
 			(type default)
 		)
 		(uuid "ffba8996-0778-4f3f-a23b-a1a84c1cebb1")
+	)
+	(wire
+		(pts
+			(xy 133.35 33.02) (xy 143.51 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffcae07-9f2f-416b-b329-67874505f760")
 	)
 	(image
 		(at 198.12 172.72)
@@ -16862,7 +17064,7 @@
 		(uuid "8c55335d-d961-4924-aa7f-4a4e6666bb5b")
 	)
 	(label "MCU_LED"
-		(at 168.91 140.97 0)
+		(at 168.91 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17219,6 +17421,126 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M_mechanical:mounting_hole_M3_NPTH")
+		(at 143.51 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0253e006-8328-4bde-b1ea-f6477df319b8")
+		(property "Reference" "M3"
+			(at 147.32 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 143.51 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mechanical:mounting_hole_M3_NPTH"
+			(at 143.51 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M3 mounting hole for M3 standoffs (NPTH)"
+			(at 143.51 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 143.51 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 143.51 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 143.51 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 143.51 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -18035,7 +18357,7 @@
 		(dnp no)
 		(uuid "0e43bdc7-9300-4dcd-8d37-0d0db33b3ad4")
 		(property "Reference" "R22"
-			(at 110.744 148.59 90)
+			(at 110.744 149.098 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18483,7 +18805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 138.43 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18627,7 +18949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 74.93 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18751,7 +19073,7 @@
 		(dnp no)
 		(uuid "1831e2ed-e61b-491b-9902-27ea0967bbb8")
 		(property "Reference" "C13"
-			(at 30.988 164.592 90)
+			(at 29.972 164.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18920,7 +19242,7 @@
 		(dnp no)
 		(uuid "19745440-630e-4606-bc5e-ecde4cc11345")
 		(property "Reference" "C9"
-			(at 254.254 124.714 90)
+			(at 255.016 125.222 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18931,7 +19253,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 252.73 127.508 90)
+			(at 253.492 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19030,7 +19352,7 @@
 			)
 		)
 		(property "VOLTAGE" "75V"
-			(at 253.238 129.54 90)
+			(at 254 129.286 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19319,7 +19641,7 @@
 		(pin "5"
 			(uuid "4fd4780a-83be-4577-ac62-2d3246fc86e2")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "9478e207-5d06-42fe-853e-2a4609ae555a")
 		)
 		(pin "1"
@@ -19369,7 +19691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 74.93 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -19646,7 +19968,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "244cfc71-6080-4f27-95c4-fc3138001cc6")
 		(property "Reference" "C2"
 			(at 201.93 38.0999 90)
@@ -19660,7 +19981,7 @@
 			)
 		)
 		(property "Value" "1pF"
-			(at 201.93 40.6399 90)
+			(at 201.676 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19816,7 +20137,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "27fd961f-7f9f-4ce9-9c62-0233b2ecab26")
 		(property "Reference" "C5"
 			(at 218.44 43.1799 90)
@@ -19830,7 +20150,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 218.44 45.7199 90)
+			(at 217.932 44.958 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19918,6 +20238,61 @@
 			)
 		)
 		(property "EXTERNAL" ""
+			(at 215.9 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOLTAGE" "10V"
+			(at 215.9 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "20%"
+			(at 215.9 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TEMP. COEFF." "X7R"
+			(at 215.9 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 215.9 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN_CT" "490-GRM188Z71A106MA73JCT-ND"
 			(at 215.9 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20023,7 +20398,7 @@
 	)
 	(symbol
 		(lib_id "R_resistors:R_0603_200K_1%_0.1W")
-		(at 142.24 49.53 90)
+		(at 143.51 49.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20031,10 +20406,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c813b68-2928-48a1-8886-9c740d423a04")
 		(property "Reference" "R8"
-			(at 144.78 48.2599 90)
+			(at 145.542 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20045,7 +20419,7 @@
 			)
 		)
 		(property "Value" "200K"
-			(at 144.78 50.7999 90)
+			(at 144.78 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20056,7 +20430,7 @@
 			)
 		)
 		(property "Footprint" "passives_smd:R_0603"
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20068,7 +20442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20079,7 +20453,7 @@
 			)
 		)
 		(property "Description" "RES SMD 200K OHM 1% 1/8W 0603"
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20090,7 +20464,7 @@
 			)
 		)
 		(property "PARTNO" "CRCW0603200KFKEA"
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20101,7 +20475,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20112,7 +20486,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20123,7 +20497,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20134,7 +20508,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20145,7 +20519,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20156,7 +20530,7 @@
 			)
 		)
 		(property "PWR" "0.125W"
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20167,7 +20541,7 @@
 			)
 		)
 		(property "TEMP. COEFF." "100 ppm/°C"
-			(at 142.24 49.53 0)
+			(at 143.51 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20225,7 +20599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 124.46 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -20724,6 +21098,151 @@
 		)
 	)
 	(symbol
+		(lib_name "TP_SMD_2MM_1")
+		(lib_id "TP_testpoints:TP_SMD_2MM")
+		(at 143.51 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33981e9c-5d36-4b6a-acac-18c623ad2d9c")
+		(property "Reference" "TP18"
+			(at 140.97 42.418 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD round test point, Pad diameter: 2 mm"
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LABEL" "[LABEL]"
+			(at 137.922 48.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VER" "1"
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" ""
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dae8357d-62a4-4db4-bac7-a20fe43e7830")
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 82.55 76.2 0)
 		(unit 1)
@@ -20956,10 +21475,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38e0c8bd-ad7d-4da9-a1fe-0de533d79738")
 		(property "Reference" "R19"
-			(at 208.28 134.6199 90)
+			(at 207.772 135.382 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20970,7 +21488,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 208.28 137.1599 90)
+			(at 207.772 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21129,7 +21647,7 @@
 		(dnp no)
 		(uuid "399a43ff-51dc-4f0a-8cd5-11dcceba2f51")
 		(property "Reference" "R5"
-			(at 209.296 38.1 90)
+			(at 209.296 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21140,7 +21658,7 @@
 			)
 		)
 		(property "Value" "22.1K"
-			(at 209.042 40.64 90)
+			(at 208.534 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21301,7 +21819,7 @@
 		(dnp no)
 		(uuid "3ae31b9b-3daf-49d4-b6fe-8145639ca9ac")
 		(property "Reference" "C10"
-			(at 146.304 135.89 0)
+			(at 145.288 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21490,7 +22008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 199.39 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -21625,7 +22143,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 126.492 45.212 90)
+			(at 125.73 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21772,6 +22290,126 @@
 		)
 	)
 	(symbol
+		(lib_id "M_mechanical:mounting_hole_M3_NPTH")
+		(at 153.67 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46bff075-6bb5-4dd2-8115-ebbe0e969912")
+		(property "Reference" "M4"
+			(at 157.48 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 153.67 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mechanical:mounting_hole_M3_NPTH"
+			(at 153.67 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M3 mounting hole for M3 standoffs (NPTH)"
+			(at 153.67 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 153.67 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 153.67 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 153.67 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 153.67 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "L_inductors:L_44.88mm3_6.8x6.8mm_12uH_1.7A")
 		(at 191.77 33.02 0)
 		(unit 1)
@@ -21781,10 +22419,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4798be2c-eca9-4d22-86a1-304fb344a1ac")
 		(property "Reference" "L1"
-			(at 191.77 26.67 0)
+			(at 192.024 27.178 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21917,7 +22554,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4bd05a3e-fe26-4eb7-bb96-764f7e82bee2")
 		(property "Reference" "R9"
 			(at 209.55 49.5299 90)
@@ -21931,7 +22567,7 @@
 			)
 		)
 		(property "Value" "69.8K"
-			(at 209.55 52.0699 90)
+			(at 208.534 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22265,7 +22901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 78.74 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -22465,7 +23101,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "57a78b6b-3fe9-4646-8e0c-eef7d69ed2da")
 		(property "Reference" "R6"
 			(at 228.6 38.0999 90)
@@ -22479,7 +23114,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 228.6 40.6399 90)
+			(at 227.584 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22748,7 +23383,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0189/LTST-C190KSKT.pdf"
 			(at 205.74 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -22770,7 +23405,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "LTST-C190KSKT"
+		(property "PARTNO" "LTST-C190KRKT"
 			(at 205.74 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -22836,6 +23471,28 @@
 				)
 			)
 		)
+		(property "DIGIKEY_PN_CT" "160-1436-1-ND"
+			(at 205.74 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 205.74 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "K"
 			(uuid "e980b076-3cd2-4971-a88b-3c11ef12b331")
 		)
@@ -22863,7 +23520,7 @@
 		(dnp no)
 		(uuid "6372f343-b89b-483c-b44d-20262ece77ea")
 		(property "Reference" "R20"
-			(at 204.216 142.24 0)
+			(at 204.216 143.256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23358,7 +24015,7 @@
 		(dnp no)
 		(uuid "6592071c-95ff-4784-838a-cbc28eb938d0")
 		(property "Reference" "R1"
-			(at 115.824 27.178 0)
+			(at 115.824 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23684,7 +24341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "passives_smd:R_0603"
+		(property "Footprint" "leds_smd:LED_0603"
 			(at 179.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -24449,7 +25106,7 @@
 		(dnp no)
 		(uuid "798633d6-785f-4860-b6b5-5a9087ee4677")
 		(property "Reference" "D1"
-			(at 217.932 128.524 90)
+			(at 217.932 129.286 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24605,7 +25262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 198.12 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -25116,7 +25773,8 @@
 	)
 	(symbol
 		(lib_id "J_connectors_terminal_blocks:5442206")
-		(at 46.99 34.29 180)
+		(at 46.99 34.29 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25126,7 +25784,7 @@
 		(dnp no)
 		(uuid "81c07057-6dfc-427f-b44e-5a92d5372864")
 		(property "Reference" "J1"
-			(at 46.482 28.448 0)
+			(at 46.736 28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25146,7 +25804,7 @@
 			)
 		)
 		(property "Footprint" "connectors_terminal_blocks:5442206"
-			(at 46.99 20.32 0)
+			(at 46.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25168,7 +25826,7 @@
 			)
 		)
 		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.200\" (5.08mm) Through Hole"
-			(at 45.72 22.86 0)
+			(at 45.72 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25179,7 +25837,7 @@
 			)
 		)
 		(property "PARTNO" "5442206"
-			(at 46.99 25.4 0)
+			(at 46.99 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25190,7 +25848,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 48.26 27.94 0)
+			(at 48.26 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25201,7 +25859,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 45.72 27.94 0)
+			(at 45.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25280,7 +25938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 214.63 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -25483,7 +26141,7 @@
 		(dnp no)
 		(uuid "894489a0-8447-4a5d-9d05-390b255bc582")
 		(property "Reference" "R21"
-			(at 103.124 148.59 90)
+			(at 103.124 149.098 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25647,6 +26305,126 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M_mechanical:mounting_hole_M3_NPTH")
+		(at 123.19 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ea3c2d-bf17-4db7-8967-b8c122775842")
+		(property "Reference" "M1"
+			(at 127 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 123.19 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mechanical:mounting_hole_M3_NPTH"
+			(at 123.19 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M3 mounting hole for M3 standoffs (NPTH)"
+			(at 123.19 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 123.19 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 123.19 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 123.19 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 123.19 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -26014,7 +26792,7 @@
 			)
 		)
 		(property "Value" "26V"
-			(at 66.548 44.704 0)
+			(at 66.802 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26161,7 +26939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 199.39 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -26476,7 +27254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 215.9 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -27471,7 +28249,7 @@
 		(dnp no)
 		(uuid "afee97cc-e908-4109-865d-b6540391d194")
 		(property "Reference" "C4"
-			(at 136.398 43.688 90)
+			(at 135.636 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27482,7 +28260,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 134.62 45.974 90)
+			(at 134.112 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28118,7 +28896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 170.18 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -28263,7 +29041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 106.68 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -28563,6 +29341,28 @@
 			)
 		)
 		(property "EXTERNAL" ""
+			(at 63.5 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Bel Fuse Inc."
+			(at 63.5 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN_CT" "5923-0ZCF0100AF2ACT-ND"
 			(at 63.5 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -30003,7 +30803,7 @@
 		(dnp no)
 		(uuid "e5ad7122-aff2-4106-9f54-dd5779adf295")
 		(property "Reference" "C6"
-			(at 95.25 48.768 90)
+			(at 95.504 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30155,6 +30955,126 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M_mechanical:mounting_hole_M3_NPTH")
+		(at 133.35 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7e46cb4-124f-406e-9480-14172812d21b")
+		(property "Reference" "M2"
+			(at 137.16 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mechanical:mounting_hole_M3_NPTH"
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M3 mounting hole for M3 standoffs (NPTH)"
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -30479,7 +31399,7 @@
 		(dnp no)
 		(uuid "ec8792ad-5092-443a-bd74-dcd6904a2288")
 		(property "Reference" "R7"
-			(at 83.82 48.2599 90)
+			(at 83.566 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30490,7 +31410,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 83.82 50.7999 90)
+			(at 83.566 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30601,7 +31521,7 @@
 			)
 		)
 		(property "PWR" "1W"
-			(at 85.344 53.34 90)
+			(at 84.836 52.578 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30894,7 +31814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testpoints:TP_SMD_2mm"
+		(property "Footprint" "testpoints:TP_SMD_0.8mm"
 			(at 78.74 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -31241,7 +32161,7 @@
 		(dnp no)
 		(uuid "fbc4a2fa-3fdd-43dc-b47f-b92e57503412")
 		(property "Reference" "R2"
-			(at 235.204 27.178 0)
+			(at 234.696 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31399,7 +32319,7 @@
 	)
 	(symbol
 		(lib_id "R_resistors:R_0603_2.87M_1%_0.1W")
-		(at 142.24 38.1 90)
+		(at 143.51 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31407,10 +32327,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc1c164f-36b4-4eae-be8d-acc70de569d7")
 		(property "Reference" "R4"
-			(at 144.78 36.8299 90)
+			(at 146.05 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31421,7 +32340,7 @@
 			)
 		)
 		(property "Value" "2.87M"
-			(at 144.78 39.3699 90)
+			(at 145.034 38.862 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31432,7 +32351,7 @@
 			)
 		)
 		(property "Footprint" "passives_smd:R_0603"
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31444,7 +32363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31455,7 +32374,7 @@
 			)
 		)
 		(property "Description" "RES SMD 2.87M OHM 1% 1/8W 0603"
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31466,7 +32385,7 @@
 			)
 		)
 		(property "PARTNO" "CRCW06032M87FKEA"
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31477,7 +32396,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31488,7 +32407,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31499,7 +32418,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31510,7 +32429,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31521,7 +32440,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31532,7 +32451,7 @@
 			)
 		)
 		(property "PWR" "0.125W"
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31543,7 +32462,7 @@
 			)
 		)
 		(property "TEMP. COEFF." "100 ppm/°C"
-			(at 142.24 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31571,7 +32490,7 @@
 	(symbol
 		(lib_name "R_0603_120R_1%_2")
 		(lib_id "R_resistors:R_0603_120R_1%")
-		(at 179.07 135.89 90)
+		(at 179.07 137.16 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31579,10 +32498,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fcc35f1c-68ab-49fb-afea-941fbb21939b")
 		(property "Reference" "R18"
-			(at 181.61 134.6199 90)
+			(at 181.61 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31593,7 +32511,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 181.61 137.1599 90)
+			(at 181.102 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31604,7 +32522,7 @@
 			)
 		)
 		(property "Footprint" "passives_smd:R_0603"
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31616,7 +32534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31627,7 +32545,7 @@
 			)
 		)
 		(property "Description" "RES 120 OHM 1% 1/10W 0603"
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31638,7 +32556,7 @@
 			)
 		)
 		(property "PARTNO" "RC0603FR-13120RL"
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31649,7 +32567,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31660,7 +32578,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31671,7 +32589,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31682,7 +32600,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31693,7 +32611,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31704,7 +32622,7 @@
 			)
 		)
 		(property "PWR" "1/10W"
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31715,7 +32633,7 @@
 			)
 		)
 		(property "TEMP. COEFF." "±100ppm/°C"
-			(at 179.07 135.89 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

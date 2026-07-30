@@ -58,9 +58,10 @@ Naming note:
 - Some directory names reflect legacy repository naming conventions (for example, `conectors/` and `zenner/`) and are preserved as-is for traceability.
 
 ## Current Technical Status
-- Schematic and footprint assets are under active review.
+- Schematic and PCB assets are synchronized and currently under placement review.
 - MCU boot/programming policy documentation is available in `project_docs/design/mcu_boot/`.
 - Replacement datasheet packages have been incorporated for component review cycles.
+- PCB exchange and output artifacts are being generated and validated during the current review iteration.
 
 ## Responsible Engineer
 - Ing. Vega Maximiliano
@@ -71,3 +72,4 @@ Naming note:
 - 2026-07-28: MCU boot policy note was revised to align BOOT0 handling with STM32C0 internal reset pull behavior.
 - 2026-07-28: Documentation inventory was aligned to the `project_docs/design/` structure.
 - 2026-07-29: Footprint and related datasheet assets entered active review, including replacement files for validation.
+- 2026-07-30: Placement review started with updated PCB/schematic files and generation of new PCB output and exchange artifacts for validation.
