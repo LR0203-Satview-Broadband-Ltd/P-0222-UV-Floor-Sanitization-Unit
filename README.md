@@ -61,7 +61,7 @@ Naming note:
 - Schematic and PCB assets are synchronized and currently under placement review.
 - MCU boot/programming policy documentation is available in `project_docs/design/mcu_boot/`.
 - Replacement datasheet packages have been incorporated for component review cycles.
-- PCB exchange and output artifacts are being generated and validated during the current review iteration.
+- PCB exchange and output artifacts were regenerated in the current review iteration (`pcb_0222-User_Drawings.pdf`, `pcb_0222.step`, and `pcb_0222_snapshot.png`).
 
 ## Responsible Engineer
 - Ing. Vega Maximiliano
@@ -73,3 +73,4 @@ Naming note:
 - 2026-07-28: Documentation inventory was aligned to the `project_docs/design/` structure.
 - 2026-07-29: Footprint and related datasheet assets entered active review, including replacement files for validation.
 - 2026-07-30: Placement review started with updated PCB/schematic files and generation of new PCB output and exchange artifacts for validation.
+- 2026-07-30: Placement review artifacts were refreshed; the output set now tracks updated PDF/STEP/snapshot files from the latest placement iteration.
