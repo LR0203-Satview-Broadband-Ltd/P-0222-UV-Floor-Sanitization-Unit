@@ -36,3 +36,5 @@ pcb_0222/.history/
 # Auxiliary markdown artifacts (do not publish)
 project_docs/design/repository_new_files_report_*.md
 project_docs/**/_*.md
+pcb_0222/glb_copy/
+pcb_0222/glib_copy/
