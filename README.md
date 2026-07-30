@@ -1,52 +1,71 @@
-# P-0222 UV Floor PCB - Complete Design
+# P-0222 UV Floor PCB Design Repository
 
-This repository contains complete PCB design work for Satview Broadband Ltd. under Logic Reliance project execution criteria.
+## Overview
+This repository contains hardware design deliverables for project P-0222 (UV Floor Sanitization Unit) developed for Satview Broadband Ltd. under Logic Reliance engineering processes.
 
-## What Is Being Done
-- Electrical calculations for sizing, protection, and design validation.
-- Schematic definition and refinement of the UV Floor Sanitization Unit.
-- PCB layout development and implementation.
-- Power and behavior simulations to support engineering decisions.
-- Technical documentation aligned with project requirements and acceptance criteria.
-
-## Project Context
+## Project Identification
 - Project code: P-0222
 - Project name: UV Floor Sanitization Unit
-- Design scope: Calculations, schematics, layout, simulations, and full board definition.
+- Primary discipline: PCB hardware design
+- Design scope: requirements traceability, calculations, schematic capture, layout development, and supporting technical documentation
 
-## Repository Contents
+## Technical Scope
+- Electrical design calculations and sizing validation
+- Schematic definition and iterative review
+- PCB implementation and packaging decisions
+- Supporting simulation outputs and reference material
+- Design documentation aligned with project requirements and acceptance criteria
 
-This section describes the current repository organization and must be updated whenever the folder structure changes.
+## Repository Structure (Current Baseline)
+This section is a controlled inventory and must be updated when directories are added, removed, or renamed.
 
-Top-level folders:
-- `.github/`: local repository automation and assistant instructions.
-- `docs_logic_reliance/`: company process references and templates.
-- `pcb_0222/`: KiCad project files (schematic, PCB, project settings, and local libraries), including temporary library-copy artifacts used during review cycles.
-- `project_docs/`: project technical documentation and engineering evidence.
+Top-level directories:
+- `.github/`: repository-local automation and assistant instruction assets
+- `docs_logic_reliance/`: company process references and templates
+- `pcb_0222/`: KiCad project files (schematic, PCB, project configuration, and local library artifacts)
+- `project_docs/`: project evidence package (requirements, design notes, references, and datasheets)
 
-Main content under `project_docs/`:
-- `design/`: implementation notes, design outputs, and engineering artifacts.
-- `datasheets/`: component manufacturer datasheets used by the design.
-- `references/`: external technical references and review support documents.
-- `requirements/`: PRD and processor requirements for the project.
+Main directories under `project_docs/`:
+- `design/`: implementation reports, pinout definitions, and design outputs
+- `datasheets/`: component manufacturer documentation and package assets
+- `references/`: external technical references used for engineering decisions
+- `requirements/`: PRD and processor requirement documents
 
-Current notable areas under `project_docs/datasheets/`:
-- `mcu/`: MCU package files, symbols, and footprint source assets.
-- `pmos/`: PMOS documentation assets under replacement/review.
-- `rotary/`: rotary switch documentation assets under replacement/review.
-- `debugger/`: debug and programming interface datasheets.
+Directories currently present under `project_docs/design/`:
+- `mcu_boot/`
+- `mcu_pinout/`
+- `power_supply/`
 
-Current content under `project_docs/design/`:
-- `mcu_boot/`: MCU boot implementation report and programming path status.
-- `mcu_pinout/`: processor pinout definition and revision-controlled spreadsheet.
-- `power_supply/`: power supply design output documents.
+Directories currently present under `project_docs/datasheets/`:
+- `buttons/`
+- `conectors/`
+- `debugger/`
+- `dipswitch/`
+- `inductor/`
+- `leds/`
+- `mcu/`
+- `nails/`
+- `npn/`
+- `pmos/`
+- `pptc/`
+- `psu/`
+- `relay/`
+- `rotary/`
+- `tvs/`
+- `xtal/`
+- `zenner/`
+
+## Current Technical Status
+- Schematic and footprint assets are under active review.
+- MCU boot/programming policy documentation is available in `project_docs/design/mcu_boot/`.
+- Replacement datasheet packages have been incorporated for component review cycles.
 
 ## Responsible Engineer
 - Ing. Vega Maximiliano
 
 ## General Project Updates
-- 2026-07-27: KiCad project files are uploaded. Current schematic status: SCH without MCU (MCU section pending).
-- 2026-07-28: Added an MCU boot and programming strategy note with selected nBOOT_SEL behavior, SWD as primary path, and provisional USART/I2C recovery alternatives.
-- 2026-07-28: Revised MCU boot policy note to remove external BOOT0 pull-down requirement and align default reset behavior with STM32C0 internal pull configuration.
-- 2026-07-28: Project documentation inventory was updated to reflect the current `project_docs/design/` structure and newly added MCU-related assets.
-- 2026-07-29: Footprint-related assets and supporting datasheet packages are in active review; replacement files and library-copy artifacts were added for validation before final consolidation.
+- 2026-07-27: KiCad project files were uploaded; schematic baseline was published with pending MCU section completion.
+- 2026-07-28: MCU boot/programming note was added with SWD as primary path and provisional USART/I2C recovery alternatives.
+- 2026-07-28: MCU boot policy note was revised to align BOOT0 handling with STM32C0 internal reset pull behavior.
+- 2026-07-28: Documentation inventory was aligned to the `project_docs/design/` structure.
+- 2026-07-29: Footprint and related datasheet assets entered active review, including replacement files for validation.
