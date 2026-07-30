@@ -2695,12 +2695,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "D_diodes_zener:NZH5V1B"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2716,8 +2710,8 @@
 					)
 				)
 			)
-			(property "Value" "NZH5V1B"
-				(at 5.08 -3.81 0)
+			(property "Value" "NZH5V1B,115"
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2726,8 +2720,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "diodes_smd:SOD-123F"
+				(at 1.27 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2749,7 +2743,7 @@
 				)
 			)
 			(property "Description" "DIODE ZENER 5.1V 500MW SOD123F"
-				(at 1.27 -11.43 0)
+				(at 1.27 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2760,7 +2754,7 @@
 				)
 			)
 			(property "PARTNO" "NZH5V1B,115"
-				(at 1.27 -8.89 0)
+				(at 1.27 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2771,7 +2765,7 @@
 				)
 			)
 			(property "VER" "1"
-				(at -1.27 -6.35 0)
+				(at -1.27 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2782,7 +2776,7 @@
 				)
 			)
 			(property "REV" "0"
-				(at 1.27 -6.35 0)
+				(at 1.27 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3140,6 +3134,209 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HEADER_MALE_THT_0.1{dblquote}_4x1_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.254 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HEADER_MALE_THT_0.1\"_4x1"
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "connectors_headers:61300411121"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Connector Header Through Hole 4 position 0.100\" (2.54mm)"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTNO" "61300411121"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VER" "1"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "REV" "0"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "CRITICAL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "EXTERNAL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HEADER_MALE_THT_0.1{dblquote}_4x1_1_0_1"
+				(rectangle
+					(start -1.27 7.62)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HEADER_MALE_THT_0.1{dblquote}_4x1_1_1_1"
+				(pin bidirectional line
+					(at -3.81 6.35 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "J_connectors_headers:HEADER_MALE_THT_0.1{dblquote}_2x1"
 			(pin_numbers
 				(hide yes)
@@ -3314,9 +3511,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "J_connectors_headers:HEADER_MALE_THT_0.1{dblquote}_4x1"
-			(pin_numbers
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3342,7 +3536,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "connectors_headers:61300411121"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3545,8 +3739,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "connectors_headers:SM02B-PASS-TBT"
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3568,7 +3762,7 @@
 				)
 			)
 			(property "Description" "CONN HEADER SMD R/A 2POS 2MM"
-				(at 2.54 -13.97 0)
+				(at 2.54 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3579,7 +3773,7 @@
 				)
 			)
 			(property "PARTNO" "SM02B-PASS-TBT"
-				(at 0 -11.43 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3772,8 +3966,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "connectors_headers:SM08B-PASS-TBT"
+				(at 2.54 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3795,7 +3989,7 @@
 				)
 			)
 			(property "Description" "CONN HEADER SMD R/A 8POS 2MM"
-				(at 1.27 -20.32 0)
+				(at 1.27 -24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4173,7 +4367,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "connectors_prog:TC2030-IDC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4398,6 +4592,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "J_connectors_terminal_blocks:5442206"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4423,7 +4620,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "connectors_terminal_blocks:5442206"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4638,7 +4835,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "relays:EE23NUH"
 				(at -9.398 -5.588 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5654,7 +5851,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "passives_smd:L_44.88mm3_6.8x6.8mm_Bourns_SRR6038-120Y"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5859,7 +6056,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "packages_smd:SOT-23-3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6113,14 +6310,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Q_transistors_pmos:BSP170P"
+		(symbol "Q_transistors_pmos:BSP170PH6327XTSA1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 6.35 5.08 0)
+				(at -2.54 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6129,8 +6326,8 @@
 					)
 				)
 			)
-			(property "Value" "BSP170P"
-				(at 6.35 2.54 0)
+			(property "Value" "BSP170PH6327XTSA1"
+				(at 1.27 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6139,8 +6336,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "packages_smd:SOT-223-4"
+				(at 1.27 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6161,7 +6358,18 @@
 					)
 				)
 			)
-			(property "Description" "MOSFET P-CH 60V 1.9A SOT223"
+			(property "Description" "MOSFET P-CH 60V 1.9A SOT223-4"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTNO" "BSP170PH6327XTSA1"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6172,19 +6380,8 @@
 					)
 				)
 			)
-			(property "PARTNO" "BSP170P"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "VER" "1"
-				(at -1.27 -10.16 0)
+				(at -1.27 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6195,7 +6392,7 @@
 				)
 			)
 			(property "REV" "0"
-				(at 1.27 -10.16 0)
+				(at 1.27 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6227,7 +6424,7 @@
 					)
 				)
 			)
-			(symbol "BSP170P_0_0"
+			(symbol "BSP170PH6327XTSA1_0_0"
 				(polyline
 					(pts
 						(xy -2.5526 0) (xy -1.6636 0)
@@ -6337,7 +6534,7 @@
 					)
 				)
 			)
-			(symbol "BSP170P_0_1"
+			(symbol "BSP170PH6327XTSA1_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.778) (xy -0.762 -0.762) (xy 0 -1.27) (xy -0.762 -1.778)
@@ -6411,7 +6608,7 @@
 					)
 				)
 			)
-			(symbol "BSP170P_1_0"
+			(symbol "BSP170PH6327XTSA1_1_0"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -6485,7 +6682,7 @@
 					)
 				)
 			)
-			(symbol "BSP170P_1_1"
+			(symbol "BSP170PH6327XTSA1_1_1"
 				(circle
 					(center 0 -1.27)
 					(radius 2.54)
@@ -10731,7 +10928,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "S_switches_rotary:MRSSV1DR10SMGWTR"
+		(symbol "S_switches_rotary:1-1825013-0"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10747,7 +10944,7 @@
 					)
 				)
 			)
-			(property "Value" "MRSSV1DR10SMGWTR"
+			(property "Value" "1-1825013-0"
 				(at 1.27 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10757,7 +10954,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "switches_smd:1-1825013-0"
 				(at 0.254 -4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10845,7 +11042,7 @@
 					)
 				)
 			)
-			(symbol "MRSSV1DR10SMGWTR_0_1"
+			(symbol "1-1825013-0_0_1"
 				(polyline
 					(pts
 						(xy -5.08 3.81) (xy -3.81 3.81)
@@ -11043,7 +11240,7 @@
 					)
 				)
 			)
-			(symbol "MRSSV1DR10SMGWTR_1_0"
+			(symbol "1-1825013-0_1_0"
 				(pin passive line
 					(at 5.08 7.62 180)
 					(length 2.54)
@@ -11153,7 +11350,7 @@
 					)
 				)
 			)
-			(symbol "MRSSV1DR10SMGWTR_1_1"
+			(symbol "1-1825013-0_1_1"
 				(polyline
 					(pts
 						(xy -5.08 10.16) (xy 2.54 10.16) (xy 2.54 -6.35) (xy -5.08 -6.35) (xy -5.08 10.16)
@@ -11330,7 +11527,7 @@
 				)
 			)
 			(property "Value" "DS04-254-2-02BK-SMT-TR"
-				(at 1.27 -7.62 0)
+				(at 1.27 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -11339,7 +11536,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "switches_smd:DS04-254-2-02BK-SMT-TR"
 				(at 0.254 -4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12022,7 +12219,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "packages_smd:TSSOP-20 [6.4x4.4x1.2,P=0.65]mm"
 				(at 0 -29.21 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12536,8 +12733,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 2.54 0)
+			(property "Footprint" "packages_smd:SOT-23-6"
+				(at -1.27 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -12559,7 +12756,7 @@
 				)
 			)
 			(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 600mA SOT-23-6"
-				(at 3.81 -17.78 0)
+				(at 3.81 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -13210,7 +13407,7 @@
 	)
 	(text "I Strip Led = 75mA\n"
 		(exclude_from_sim no)
-		(at 260.604 152.4 0)
+		(at 258.826 155.448 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -13230,7 +13427,7 @@
 	)
 	(text "Outputs\n"
 		(exclude_from_sim no)
-		(at 232.156 115.824 0)
+		(at 233.68 115.824 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13276,7 +13473,7 @@
 	)
 	(text "Route 4 pairs (Power + GND) to drive 4 LED strips"
 		(exclude_from_sim no)
-		(at 259.08 155.448 0)
+		(at 259.334 157.988 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -13471,6 +13668,12 @@
 		(uuid "7317553e-bd47-4040-817b-246353b2d7da")
 	)
 	(junction
+		(at 226.06 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78db19fe-68c4-4431-94cf-d21246a7afb8")
+	)
+	(junction
 		(at 109.22 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13553,12 +13756,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9db8895d-d64d-4a0e-a448-9f952e269c17")
-	)
-	(junction
-		(at 222.25 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7ecb1e1-1164-4f91-b2fb-358ef6e14a46")
 	)
 	(junction
 		(at 106.68 55.88)
@@ -14161,7 +14358,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 92.71) (xy 222.25 95.25)
+			(xy 226.06 92.71) (xy 226.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -14634,7 +14831,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 222.25 92.71)
+			(xy 226.06 88.9) (xy 226.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -15088,6 +15285,16 @@
 			(type default)
 		)
 		(uuid "b18b9504-4e37-4dbb-9c22-c104f6a83ae7")
+	)
+	(wire
+		(pts
+			(xy 226.06 88.9) (xy 222.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22c3319-5258-4463-af47-1edcef971e81")
 	)
 	(wire
 		(pts
@@ -15554,6 +15761,16 @@
 			(type default)
 		)
 		(uuid "e3b782f8-d3a6-4bcc-bb31-cdf2cb0a286f")
+	)
+	(wire
+		(pts
+			(xy 226.06 92.71) (xy 222.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ddd14a-c522-444e-8ebf-001f8daa7b05")
 	)
 	(wire
 		(pts
@@ -16777,147 +16994,6 @@
 		(uuid "f1502191-c7ba-428e-a434-af1e7e0ee939")
 	)
 	(symbol
-		(lib_id "Q_transistors_pmos:BSP170P")
-		(at 81.28 33.02 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00833515-3500-4202-96f7-208e6b6fa381")
-		(property "Reference" "Q1"
-			(at 80.772 26.416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSP170P"
-			(at 80.772 28.956 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MOSFET P-CH 60V 1.9A SOT223"
-			(at 66.04 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "BSP170P"
-			(at 68.58 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VER" "1"
-			(at 71.12 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "REV" "0"
-			(at 71.12 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CRITICAL" ""
-			(at 81.28 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EXTERNAL" ""
-			(at 68.58 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2421ec2-be5a-41b8-a5e1-986687518173")
-		)
-		(pin "2"
-			(uuid "0ddfbc58-3a92-401b-925c-1690409b61cb")
-		)
-		(pin "3"
-			(uuid "d2ff091c-8be9-4773-b5da-07489bcbd615")
-		)
-		(pin "4"
-			(uuid "73864ea2-e0a0-419c-a7bf-7bea3bb2de07")
-		)
-		(instances
-			(project "pcb_0222"
-				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "K_relays:EE2-3NUH")
 		(at 233.68 129.54 0)
 		(unit 1)
@@ -16929,7 +17005,7 @@
 		(dnp no)
 		(uuid "00cbe582-df2a-40f2-9baf-aba86e17f80b")
 		(property "Reference" "K1"
-			(at 233.426 144.018 0)
+			(at 233.426 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16939,7 +17015,7 @@
 			)
 		)
 		(property "Value" "EE2-3NUH"
-			(at 233.426 146.558 0)
+			(at 233.426 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16948,7 +17024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "relays:EE23NUH"
 			(at 224.282 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -17082,7 +17158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "010fab92-928c-4038-b758-63149a6837a9")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 138.43 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17142,7 +17218,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -17160,7 +17236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02ec8d3a-2f23-4d0d-b034-1b7f4efcb41c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 36.83 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -17220,7 +17296,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17418,7 +17494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07a8b9a6-9b93-4d58-ba75-c09574c9d947")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 88.9 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17478,7 +17554,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18139,7 +18215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f066ade-56f4-4532-b269-867da279242f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 92.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -18199,7 +18275,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -18217,7 +18293,7 @@
 		(dnp no)
 		(uuid "0febe0f5-6fe4-4c40-8507-20b08973ce44")
 		(property "Reference" "R16"
-			(at 132.588 83.312 90)
+			(at 132.08 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18228,7 +18304,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 132.334 85.598 90)
+			(at 132.08 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18387,7 +18463,7 @@
 		(dnp no)
 		(uuid "12a1f371-7188-458d-96f8-e223cf970c3d")
 		(property "Reference" "TP5"
-			(at 138.43 83.566 0)
+			(at 139.192 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19035,7 +19111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a85c44f-4553-4628-a6f8-4310815daaa7")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 118.11 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -19095,7 +19171,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -19135,7 +19211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_prog:TC2030-IDC"
 			(at 147.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -19416,7 +19492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21267667-859d-48d8-8ff5-2601c3d1ca8b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 260.35 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -19476,7 +19552,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -19494,7 +19570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21486b6d-5ecf-4b40-ae0c-f44201256d67")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 209.55 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -19554,7 +19630,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -19879,7 +19955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c601704-2d71-4d11-9529-a07e5009bb48")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 26.67 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -19939,7 +20015,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -20419,10 +20495,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "322020a9-2023-49e1-b1fc-dd79947e45e1")
 		(property "Reference" "J6"
-			(at 275.59 137.1599 0)
+			(at 270.002 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20433,8 +20508,7 @@
 			)
 		)
 		(property "Value" "SM08B-PASS-TBT"
-			(at 275.59 139.6999 0)
-			(hide yes)
+			(at 261.874 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20444,7 +20518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_headers:SM08B-PASS-TBT"
 			(at 270.51 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -20583,7 +20657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3361e28c-89e8-47d8-b6c3-bbea319fef20")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -20643,7 +20717,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -20661,7 +20735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35ec1f25-1844-4cf5-a819-9ae74b801504")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 82.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -20721,7 +20795,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -20884,7 +20958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38e0c8bd-ad7d-4da9-a1fe-0de533d79738")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 208.28 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21037,7 +21111,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -21729,7 +21803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "passives_smd:L_44.88mm3_6.8x6.8mm_Bourns_SRR6038-120Y"
 			(at 191.77 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -22016,7 +22090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db48c95-20e6-44f5-93cc-2589fd42dfc7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 214.63 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -22076,7 +22150,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -22093,7 +22167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53d5d029-b207-4e1c-843d-b278810c4fda")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -22153,7 +22227,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -22315,7 +22389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5695e4a7-a7c1-4074-ba77-1c3c6020dc1b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 118.11 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -22375,7 +22449,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -22563,7 +22637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d4709cf-07eb-4ddd-8fd4-fdb8f7092b1f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 102.87 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -22623,7 +22697,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -22640,7 +22714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "623d4f8a-1d0e-40bd-a5db-be76cdd1eed5")
-		(property "Reference" "LED3"
+		(property "Reference" "LED4"
 			(at 208.534 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22771,7 +22845,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "LED3")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -22946,6 +23020,7 @@
 		)
 	)
 	(symbol
+		(lib_name "HEADER_MALE_THT_0.1{dblquote}_4x1_1")
 		(lib_id "J_connectors_headers:HEADER_MALE_THT_0.1{dblquote}_4x1")
 		(at 123.19 135.89 0)
 		(unit 1)
@@ -22979,7 +23054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_headers:61300411121"
 			(at 123.19 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -23112,7 +23187,7 @@
 		(dnp no)
 		(uuid "63ad2b6d-770a-4459-9bfe-8d82e27f6768")
 		(property "Reference" "R12"
-			(at 97.028 80.772 90)
+			(at 96.52 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23440,6 +23515,142 @@
 		)
 	)
 	(symbol
+		(lib_id "D_diodes_zener:NZH5V1B")
+		(at 92.71 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b842ef7-a523-4a3a-9c52-4d39198d1c8c")
+		(property "Reference" "U1"
+			(at 96.266 39.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NZH5V1B,115"
+			(at 92.964 41.148 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diodes_smd:SOD-123F"
+			(at 93.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE ZENER 5.1V 500MW SOD123F"
+			(at 93.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "NZH5V1B,115"
+			(at 93.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 91.44 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 93.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 92.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 92.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C"
+			(uuid "390830e5-8540-4cf0-a622-78482b8b4bf5")
+		)
+		(pin "A"
+			(uuid "b01fdcee-b8f5-4e94-a544-504531315645")
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED_leds:LED_0603_YELLOW")
 		(at 179.07 125.73 0)
 		(unit 1)
@@ -23450,7 +23661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d38eaff-f36c-47e0-8129-88d77d05e98c")
-		(property "Reference" "LED4"
+		(property "Reference" "LED3"
 			(at 183.134 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23581,7 +23792,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "LED4")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -23599,7 +23810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d401b0c-a83c-45ef-b5db-a62c0f7e50e9")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 243.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -23659,7 +23870,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -23677,7 +23888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ed57d83-91d5-4e6d-8824-9f8ae1491788")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 130.81 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -23737,7 +23948,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -23756,7 +23967,7 @@
 		(dnp no)
 		(uuid "6ef12370-c3a9-4107-82e7-76acc3f1ef5e")
 		(property "Reference" "R10"
-			(at 84.328 80.772 90)
+			(at 83.82 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23926,7 +24137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "708fc6c9-e3a5-4a47-9376-48e6300fa657")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 109.22 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -23986,7 +24197,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -24004,7 +24215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "711587f1-2c80-4537-aa63-38b772ec55b2")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 214.63 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -24064,7 +24275,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -24083,7 +24294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7120ae8e-ac8e-45e7-826a-0ba332259bb7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 26.67 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24143,7 +24354,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -24160,7 +24371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "741d30f7-80ac-4908-aaf1-3984ea752fb3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 118.11 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -24220,7 +24431,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -24837,7 +25048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fec3fff-0549-436d-8a54-2c48f8931330")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 242.57 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -24897,7 +25108,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -24915,7 +25126,7 @@
 		(dnp no)
 		(uuid "81c07057-6dfc-427f-b44e-5a92d5372864")
 		(property "Reference" "J1"
-			(at 44.704 28.194 0)
+			(at 46.482 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24925,7 +25136,7 @@
 			)
 		)
 		(property "Value" "5442206"
-			(at 44.704 30.48 0)
+			(at 46.482 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24934,7 +25145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_terminal_blocks:5442206"
 			(at 46.99 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -25194,7 +25405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83cc7d45-b374-4c25-8422-52448839fca5")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -25254,7 +25465,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -25474,7 +25685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "packages_smd:TSSOP-20 [6.4x4.4x1.2,P=0.65]mm"
 			(at 58.42 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -25665,7 +25876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "packages_smd:SOT-23-6"
 			(at 163.83 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -26075,7 +26286,7 @@
 		(dnp no)
 		(uuid "96a27baa-735e-497b-a927-f438c9ae1bb0")
 		(property "Reference" "R11"
-			(at 90.678 80.772 90)
+			(at 90.17 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26378,142 +26589,6 @@
 		)
 	)
 	(symbol
-		(lib_id "D_diodes_zener:NZH5V1B")
-		(at 92.71 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "996ed8a1-1ce9-44ea-897f-951b2af5ae2a")
-		(property "Reference" "U1"
-			(at 95.758 38.608 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NZH5V1B"
-			(at 93.472 40.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DIODE ZENER 5.1V 500MW SOD123F"
-			(at 93.98 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "NZH5V1B,115"
-			(at 93.98 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VER" "1"
-			(at 91.44 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "REV" "0"
-			(at 93.98 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CRITICAL" ""
-			(at 92.71 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EXTERNAL" ""
-			(at 92.71 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C"
-			(uuid "f39b4601-5a6c-4b0e-a34d-802a1177df6c")
-		)
-		(pin "A"
-			(uuid "efd7b880-8531-43bb-9bb2-d6fb30bcc6e9")
-		)
-		(instances
-			(project "pcb_0222"
-				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 146.05 130.81 0)
 		(mirror y)
@@ -26525,7 +26600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aca397b-bd2e-4e81-afe8-0e5154a9e8e7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 146.05 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -26585,7 +26660,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -26603,7 +26678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ae8b25b-b421-485e-9d31-ece27b7f7f7c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 157.48 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -26663,7 +26738,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -26681,7 +26756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d15dc5-8fb1-4589-ad01-dd1f7f7f84a7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 54.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -26741,7 +26816,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -26759,7 +26834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8d57efc-6918-4d0c-8e5a-1c1a9d492e6f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 118.11 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -26819,7 +26894,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -26837,7 +26912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa06f072-5362-46db-b3a7-18039e353b0c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 179.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -26897,7 +26972,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -27239,7 +27314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac8af191-69d3-4b9d-ab9a-c5a549d99755")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 203.2 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -27299,7 +27374,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -27317,7 +27392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac990263-4284-448f-af84-d7c504092f4e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 162.56 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -27377,7 +27452,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -27565,7 +27640,7 @@
 		(dnp no)
 		(uuid "b070bfad-8b25-4650-9e80-d12bdd38b4dd")
 		(property "Reference" "Q2"
-			(at 219.71 148.336 0)
+			(at 219.71 149.352 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27576,7 +27651,7 @@
 			)
 		)
 		(property "Value" "BC817-16"
-			(at 216.408 152.146 0)
+			(at 216.154 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27586,7 +27661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "packages_smd:SOT-23-3"
 			(at 214.63 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -27892,18 +27967,17 @@
 			)
 		)
 		(property "Value" "DS04-254-2-02BK-SMT-TR"
-			(at 217.8049 85.09 90)
-			(hide yes)
+			(at 208.026 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switches_smd:DS04-254-2-02BK-SMT-TR"
 			(at 217.424 93.726 0)
 			(hide yes)
 			(show_name no)
@@ -28024,7 +28098,7 @@
 		(dnp no)
 		(uuid "b65a680c-d4eb-4f04-aa32-53dfc2a3c57d")
 		(property "Reference" "TP6"
-			(at 170.18 83.566 0)
+			(at 170.434 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28313,7 +28387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c63f278d-931e-4266-8595-3b352771dc37")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 101.6 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -28373,7 +28447,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -28525,7 +28599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc982e4e-ec50-4081-ba51-64f91e0b4bc6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR01"
 			(at 54.61 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -28585,7 +28659,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR037")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -28604,7 +28678,7 @@
 		(dnp no)
 		(uuid "cd3e98d6-bade-484c-a05c-6a35d12b0790")
 		(property "Reference" "R13"
-			(at 103.378 80.772 90)
+			(at 102.87 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28774,7 +28848,7 @@
 		(dnp no)
 		(uuid "cefe4801-56a8-4c2e-b719-693a5c260c2a")
 		(property "Reference" "R17"
-			(at 164.592 83.566 90)
+			(at 163.83 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28785,7 +28859,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 164.084 85.598 90)
+			(at 163.83 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28966,7 +29040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_headers:61300411121"
 			(at 123.19 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -29099,7 +29173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf1298a-d8e9-46f5-80fe-7b0c9b0efda2")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 118.11 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -29159,7 +29233,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -29177,7 +29251,7 @@
 		(dnp no)
 		(uuid "dbfa2ea8-41cb-4905-a142-c71b5bda4001")
 		(property "Reference" "J3"
-			(at 176.53 95.504 0)
+			(at 176.276 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29188,18 +29262,17 @@
 			)
 		)
 		(property "Value" "SM02B-PASS-TBT"
-			(at 181.61 91.4399 0)
-			(hide yes)
+			(at 171.958 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_headers:SM02B-PASS-TBT"
 			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -29451,7 +29524,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 95.25 0)
+		(at 226.06 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29460,8 +29533,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0bb8ad1-f5c3-4b0c-8431-f0f42131dbcb")
-		(property "Reference" "#PWR012"
-			(at 222.25 101.6 0)
+		(property "Reference" "#PWR013"
+			(at 226.06 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29472,7 +29545,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 99.06 0)
+			(at 226.06 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29482,7 +29555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 95.25 0)
+			(at 226.06 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29493,7 +29566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 95.25 0)
+			(at 226.06 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29504,7 +29577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 95.25 0)
+			(at 226.06 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29520,7 +29593,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -29538,7 +29611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2145449-9fca-418e-ae40-a249aeec863b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 133.35 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -29598,7 +29671,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -29776,154 +29849,6 @@
 		)
 	)
 	(symbol
-		(lib_id "S_switches_rotary:MRSSV1DR10SMGWTR")
-		(at 109.22 95.25 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e4f6ebba-54ba-455e-8507-f5e47a61cba2")
-		(property "Reference" "S2"
-			(at 110.49 83.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MRSSV1DR10SMGWTR"
-			(at 110.49 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 108.966 100.076 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SWITCH ROTARY DIP BCD 0.4VA 20V"
-			(at 107.95 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "1-1825013-0"
-			(at 106.68 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VER" "1"
-			(at 111.76 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "REV" "0"
-			(at 106.68 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CRITICAL" ""
-			(at 109.22 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EXTERNAL" ""
-			(at 109.22 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C2"
-			(uuid "0fdb9504-baa4-471d-94b6-0d935b3457e3")
-		)
-		(pin "2"
-			(uuid "689022ce-53df-49c2-b3f9-108f5b8c0223")
-		)
-		(pin "4"
-			(uuid "0d916755-5630-4fa0-9433-1a27f72f590f")
-		)
-		(pin "8"
-			(uuid "275759c2-433e-40f3-9102-bcc5eadedb05")
-		)
-		(pin "1"
-			(uuid "ab525b0b-d19e-4b54-b021-c1d4828af47c")
-		)
-		(pin "C1"
-			(uuid "6551e1db-ada1-4420-885f-16f55a7e3cb0")
-		)
-		(instances
-			(project "pcb_0222"
-				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "J_connectors_headers:SM02B-PASS-TBT")
 		(at 146.05 90.17 0)
 		(unit 1)
@@ -29935,7 +29860,7 @@
 		(dnp no)
 		(uuid "e58667aa-9f30-4ae1-95a8-35138b6c0db5")
 		(property "Reference" "J2"
-			(at 144.78 95.504 0)
+			(at 144.78 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29946,18 +29871,17 @@
 			)
 		)
 		(property "Value" "SM02B-PASS-TBT"
-			(at 149.86 91.4399 0)
-			(hide yes)
+			(at 139.954 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connectors_headers:SM02B-PASS-TBT"
 			(at 146.05 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -30725,7 +30649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f16386e5-83bb-4569-a1b4-5a3ba829d315")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 95.25 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -30785,7 +30709,154 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR06")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S_switches_rotary:1-1825013-0")
+		(at 109.22 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2d3b1c0-a697-431d-a613-be0bb187e196")
+		(property "Reference" "S2"
+			(at 110.744 83.058 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1-1825013-0"
+			(at 110.236 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "switches_smd:1-1825013-0"
+			(at 108.966 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SWITCH ROTARY DIP BCD 0.4VA 20V"
+			(at 107.95 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "1-1825013-0"
+			(at 106.68 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 111.76 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 106.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "e27b5e8e-38e1-4f8d-9b0f-e8a5c1f75332")
+		)
+		(pin "2"
+			(uuid "e666d608-8faf-404f-a758-5d0591d24da6")
+		)
+		(pin "C1"
+			(uuid "f3354332-aa7a-4243-a94b-41c58e40007d")
+		)
+		(pin "1"
+			(uuid "1261a9a3-b615-41c4-a560-8ae83793966d")
+		)
+		(pin "C2"
+			(uuid "a53e66af-bcd7-4a4d-a309-834cc06cce89")
+		)
+		(pin "4"
+			(uuid "e5754410-b064-4073-a85d-e615bf581d30")
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -31091,7 +31162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f90e971c-1a62-4b88-8e82-d0c1d182070d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 205.74 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -31151,7 +31222,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -31510,7 +31581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc35f1c-68ab-49fb-afea-941fbb21939b")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 181.61 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31663,7 +31734,7 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -31682,7 +31753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda4f2f2-825d-4e7e-b0c2-c8d4bc3eb7b8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 133.35 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -31742,7 +31813,148 @@
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "#PWR033")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Q_transistors_pmos:BSP170PH6327XTSA1")
+		(at 81.28 33.02 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff36d9b0-f039-4130-a315-f206acac78ca")
+		(property "Reference" "Q1"
+			(at 80.772 27.178 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSP170PH6327XTSA1"
+			(at 80.518 29.464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "packages_smd:SOT-223-4"
+			(at 60.96 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MOSFET P-CH 60V 1.9A SOT223-4"
+			(at 63.5 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "BSP170PH6327XTSA1"
+			(at 66.04 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 68.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 81.28 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 68.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "5733cfa8-6cfe-4886-958e-20df29ce4c9a")
+		)
+		(pin "2"
+			(uuid "3144bf19-3813-43f4-a9e1-64e5ffa5cfc3")
+		)
+		(pin "3"
+			(uuid "6731d3ce-f720-45d8-a671-8bd9da8a72b0")
+		)
+		(pin "1"
+			(uuid "f4b8d083-ac8b-4edf-8adf-3fbf58c8f581")
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "Q1")
 					(unit 1)
 				)
 			)

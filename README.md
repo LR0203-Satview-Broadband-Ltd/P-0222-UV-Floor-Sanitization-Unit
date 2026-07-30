@@ -21,7 +21,7 @@ This section describes the current repository organization and must be updated w
 Top-level folders:
 - `.github/`: local repository automation and assistant instructions.
 - `docs_logic_reliance/`: company process references and templates.
-- `pcb_0222/`: KiCad project files (schematic, PCB, project settings, and local libraries).
+- `pcb_0222/`: KiCad project files (schematic, PCB, project settings, and local libraries), including temporary library-copy artifacts used during review cycles.
 - `project_docs/`: project technical documentation and engineering evidence.
 
 Main content under `project_docs/`:
@@ -29,6 +29,12 @@ Main content under `project_docs/`:
 - `datasheets/`: component manufacturer datasheets used by the design.
 - `references/`: external technical references and review support documents.
 - `requirements/`: PRD and processor requirements for the project.
+
+Current notable areas under `project_docs/datasheets/`:
+- `mcu/`: MCU package files, symbols, and footprint source assets.
+- `pmos/`: PMOS documentation assets under replacement/review.
+- `rotary/`: rotary switch documentation assets under replacement/review.
+- `debugger/`: debug and programming interface datasheets.
 
 Current content under `project_docs/design/`:
 - `mcu_boot/`: MCU boot implementation report and programming path status.
@@ -43,3 +49,4 @@ Current content under `project_docs/design/`:
 - 2026-07-28: Added an MCU boot and programming strategy note with selected nBOOT_SEL behavior, SWD as primary path, and provisional USART/I2C recovery alternatives.
 - 2026-07-28: Revised MCU boot policy note to remove external BOOT0 pull-down requirement and align default reset behavior with STM32C0 internal pull configuration.
 - 2026-07-28: Project documentation inventory was updated to reflect the current `project_docs/design/` structure and newly added MCU-related assets.
+- 2026-07-29: Footprint-related assets and supporting datasheet packages are in active review; replacement files and library-copy artifacts were added for validation before final consolidation.
