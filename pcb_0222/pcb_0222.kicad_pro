@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "20260801"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -661,7 +661,7 @@
         "uuid": "9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
       }
     ],
-    "used_designators": "L1,D1,#PWR1-39,K1,LED1-4,C1-14,F1,J1-9,PB1,Q1-2,#FLG1,R1-22,S1-2,TP1-18,TVS1,U1-3,M1-4",
+    "used_designators": "L1,D1-2,#PWR1-50,K1,LED1-4,C1-15,F1,J1-10,PB1-2,Q1-2,#FLG1,R1-24,S1-2,TP1-19,TVS1-8,U1-3,M1-4",
     "variants": []
   },
   "sheets": [
