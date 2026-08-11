@@ -58,10 +58,10 @@ Naming note:
 - Some directory names reflect legacy repository naming conventions (for example, `conectors/` and `zenner/`) and are preserved as-is for traceability.
 
 ## Current Technical Status
-- Layout work is in progress on the current PCB iteration, following the latest schematic review integration.
+- The current PCB layout iteration is ready for review following the latest schematic review integration.
 - MCU boot/programming policy documentation is available in `project_docs/design/mcu_boot/`.
 - Replacement datasheet packages have been incorporated for component review cycles.
-- PCB exchange and output artifacts are being refreshed as placement and routing adjustments are reviewed (`pcb_0222-User_Drawings.pdf`, `pcb_0222.step`, `pcb_0222_snapshot.png`, and the latest placement package archive).
+- PCB implementation files have been updated to the review baseline for the current iteration.
 
 ## Responsible Engineer
 - Ing. Vega Maximiliano
@@ -77,3 +77,4 @@ Naming note:
 - 2026-08-02: Schematic review comments were incorporated; PCB and output artifacts were updated to match the latest reviewed schematic state.
 - 2026-08-09: Layout iteration is in progress with synchronized schematic/PCB updates and refreshed connector datasheet support.
 - 2026-08-09: Layout review continued with additional placement and routing adjustments in the active PCB revision.
+- 2026-08-11: The active layout iteration reached review-ready status with synchronized PCB and schematic updates.

@@ -24707,11 +24707,11 @@
 		)
 		(column_widths 12.7)
 		(row_heights 2.54 2.54 2.54 2.54)
-		(uuid "61d2b4ea-a422-4405-837d-31047730a305")
+		(uuid "66537a9c-16fd-464d-b9df-5882a64e53a8")
 		(cells
 			(table_cell "VB"
 				(exclude_from_sim no)
-				(at 20.32 43.18 0)
+				(at 20.32 45.72 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -24727,7 +24727,7 @@
 			)
 			(table_cell "min"
 				(exclude_from_sim no)
-				(at 20.32 45.72 0)
+				(at 20.32 48.26 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -24744,7 +24744,7 @@
 			)
 			(table_cell "nom"
 				(exclude_from_sim no)
-				(at 20.32 48.26 0)
+				(at 20.32 50.8 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -24761,7 +24761,7 @@
 			)
 			(table_cell "max"
 				(exclude_from_sim no)
-				(at 20.32 50.8 0)
+				(at 20.32 53.34 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -24798,11 +24798,11 @@
 		)
 		(column_widths 12.7)
 		(row_heights 2.54 2.54 2.54 2.54)
-		(uuid "6c9e9f4e-aada-477d-9115-b97cc00431d1")
+		(uuid "851dee5c-7816-4851-8b9e-f61363a42853")
 		(cells
-			(table_cell "VB"
+			(table_cell ""
 				(exclude_from_sim no)
-				(at 20.32 43.18 0)
+				(at 20.32 45.72 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -24816,24 +24816,7 @@
 				)
 				(uuid "88ed47c2-b447-45e1-ad2f-0c8fa7bd4a03")
 			)
-			(table_cell "min"
-				(exclude_from_sim no)
-				(at 20.32 45.72 0)
-				(size 12.7 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "c2a47f05-f63e-45b9-ab40-78c5b1b43324")
-			)
-			(table_cell "nom"
+			(table_cell ""
 				(exclude_from_sim no)
 				(at 20.32 48.26 0)
 				(size 12.7 2.54)
@@ -24848,9 +24831,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "d96c4c9d-4729-4005-b268-186bbab9678c")
+				(uuid "c2a47f05-f63e-45b9-ab40-78c5b1b43324")
 			)
-			(table_cell "max"
+			(table_cell ""
 				(exclude_from_sim no)
 				(at 20.32 50.8 0)
 				(size 12.7 2.54)
@@ -24865,81 +24848,24 @@
 					)
 					(justify left top)
 				)
+				(uuid "d96c4c9d-4729-4005-b268-186bbab9678c")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 20.32 53.34 0)
+				(size 12.7 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
 				(uuid "3cc19343-c26c-4bbe-bf85-84136dade28d")
-			)
-		)
-	)
-	(table
-		(column_count 1)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 6.35)
-		(row_heights 2.54 2.54 2.54)
-		(uuid "7ba9b187-7620-4651-82f0-28d32adc6733")
-		(cells
-			(table_cell "22V"
-				(exclude_from_sim no)
-				(at 26.67 45.72 0)
-				(size 6.35 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "2b764885-43bd-4737-8917-9dfcf8c69236")
-			)
-			(table_cell "24V"
-				(exclude_from_sim no)
-				(at 26.67 48.26 0)
-				(size 6.35 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4de84df1-f401-432b-ad42-2a3eeb25c6b9")
-			)
-			(table_cell "26V"
-				(exclude_from_sim no)
-				(at 26.67 50.8 0)
-				(size 6.35 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "077c1af3-f82f-4e49-9381-0447c72b362a")
 			)
 		)
 	)
@@ -25134,6 +25060,80 @@
 					(justify left top)
 				)
 				(uuid "081037b9-b318-42e6-873c-07467ba4bc3e")
+			)
+		)
+	)
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 6.35)
+		(row_heights 2.54 2.54 2.54)
+		(uuid "dc57227c-bd3c-476b-be35-42b6c43c0b89")
+		(cells
+			(table_cell "22V"
+				(exclude_from_sim no)
+				(at 26.67 48.26 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2b764885-43bd-4737-8917-9dfcf8c69236")
+			)
+			(table_cell "24V"
+				(exclude_from_sim no)
+				(at 26.67 50.8 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4de84df1-f401-432b-ad42-2a3eeb25c6b9")
+			)
+			(table_cell "26V"
+				(exclude_from_sim no)
+				(at 26.67 53.34 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "077c1af3-f82f-4e49-9381-0447c72b362a")
 			)
 		)
 	)
@@ -26910,6 +26910,162 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "J_connectors_headers:S2P-VH")
+		(at 24.13 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11a4b3d8-8659-4a45-9db0-025f70bcbd8d")
+		(property "Reference" "J1"
+			(at 24.13 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S2P-VH"
+			(at 24.13 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connectors_headers:S2P-VH"
+			(at 24.13 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN HEADER R/A 2POS 3.96MM"
+			(at 21.844 13.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "S2P-VH"
+			(at 13.97 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 26.67 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 22.86 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 24.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 24.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales America Inc."
+			(at 22.86 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN_CT" "455-S2P-VH-ND"
+			(at 27.94 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33c2ff54-808d-41fd-a8b3-fb978b69a50b")
+		)
+		(pin "2"
+			(uuid "3319ead7-dd4e-465c-8912-ef2a58579cb1")
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -40130,162 +40286,6 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "J_connectors_headers:S2P-VH")
-		(at 24.13 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b71664fc-7671-46c7-ac45-d13447cb782b")
-		(property "Reference" "J1"
-			(at 24.13 40.132 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "S2P-VH"
-			(at 24.384 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "connectors_headers:S2P-VH"
-			(at 24.13 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN HEADER R/A 2POS 3.96MM"
-			(at 21.844 13.716 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "S2P-VH"
-			(at 13.97 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VER" "1"
-			(at 26.67 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "REV" "0"
-			(at 22.86 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CRITICAL" ""
-			(at 24.13 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EXTERNAL" ""
-			(at 24.13 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 22.86 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN_CT" "455-S2P-VH-ND"
-			(at 27.94 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49bea3af-4abe-4dc0-9fcd-a6e04b2028ee")
-		)
-		(pin "2"
-			(uuid "e25fcde5-0b36-46dc-8301-fe27828dba54")
-		)
-		(instances
-			(project "pcb_0222"
-				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "J1")
 					(unit 1)
 				)
 			)
