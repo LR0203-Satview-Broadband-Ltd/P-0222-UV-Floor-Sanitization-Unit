@@ -4,7 +4,7 @@
 
 | Project | Status | Current package | Owner |
 | --- | --- | --- | --- |
-| P-0222 | Review-ready | Manufacturing package under final release review | Ing. Vega Maximiliano |
+| P-0222 | Layout review pending | Preliminary manufacturing package generated | Ing. Vega Maximiliano |
 
 ## Project Overview
 
@@ -14,9 +14,9 @@ The design is developed under Logic Reliance engineering processes and follows t
 
 ## Current Status
 
-The current PCB layout and manufacturing package have passed the latest consistency audit.
+The PCB layout has not yet passed formal review. A preliminary manufacturing package has been generated to support the upcoming layout review and early manufacturing feedback; it is not an approved production release.
 
-### Verified
+### Preliminary Package Contents
 
 - BOM: 40 grouped entries and 70 component references.
 - Assembly positions: DNP components excluded from the pick-and-place output.
@@ -26,9 +26,11 @@ The current PCB layout and manufacturing package have passed the latest consiste
 - Manufacturing drill outputs: duplicate PTH/NPTH files removed.
 - Logic Reliance BOM workbook: editable Excel version generated from the KiCad CSV.
 
-### Release blocker
+### Release Conditions
 
-- The Gerber job file still reports `Revision: rev?`. Assign the formal board revision before releasing the manufacturing package to a supplier.
+- Complete and approve the formal layout review.
+- Assign the formal board revision in the Gerber job file, which currently reports `Revision: rev?`.
+- Regenerate and review the manufacturing outputs after approval before releasing them to a supplier.
 
 ## Technical Scope
 
@@ -110,5 +112,5 @@ Some directory names preserve legacy spelling for traceability, including `conec
 - 2026-07-30: Placement outputs, drawings, STEP model, and exchange artifacts were refreshed.
 - 2026-08-02: Schematic review comments were incorporated into the PCB and manufacturing outputs.
 - 2026-08-09: Layout placement and routing review continued with synchronized schematic and PCB updates.
-- 2026-08-11: The active layout iteration reached review-ready status.
-- 2026-08-16: The manufacturing package audit confirmed BOM, assembly, fabrication, and ODB++ consistency; formal Gerber revision assignment remains pending.
+- 2026-08-11: The active layout iteration was prepared for formal review.
+- 2026-08-16: A preliminary manufacturing package was generated to support the pending layout review; it is not approved for supplier release.
