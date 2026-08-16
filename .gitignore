@@ -14,6 +14,11 @@ __pycache__/
 p-0222.md
 project_docs/references/_pdf_text_index.md
 project_docs/references/_document_read_audit.md
+project_docs/references/symbol_footprint_creation_checklist.md
+project_docs/references/**/_*.md
+project_docs/references/**/*checklist*.md
+project_docs/references/**/*assistant*.md
+project_docs/references/**/*ai*.md
 
 # Client internal documentation (do not publish)
 docs_logic_reliance/

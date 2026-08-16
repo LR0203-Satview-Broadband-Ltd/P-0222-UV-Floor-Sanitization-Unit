@@ -5924,9 +5924,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "HEADER_MALE_THT_0.1{dblquote}_4x1_1"
-			(pin_numbers
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6030,6 +6027,28 @@
 				)
 			)
 			(property "EXTERNAL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "Würth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DIGIKEY_PN_CT" "732-5317-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6322,9 +6341,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "J_connectors_headers:HEADER_MALE_THT_0.1{dblquote}_4x1"
-			(pin_numbers
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6428,6 +6444,28 @@
 				)
 			)
 			(property "EXTERNAL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "Würth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DIGIKEY_PN_CT" "732-5317-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -29780,6 +29818,28 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 152.4 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN_CT" "732-5317-ND"
+			(at 152.4 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "5100214f-8083-4dfb-8604-12580ebcd2f8")
 		)
@@ -33474,6 +33534,28 @@
 			)
 		)
 		(property "EXTERNAL" ""
+			(at 152.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Würth Elektronik"
+			(at 152.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN_CT" "732-5317-ND"
 			(at 152.4 161.29 0)
 			(hide yes)
 			(show_name no)

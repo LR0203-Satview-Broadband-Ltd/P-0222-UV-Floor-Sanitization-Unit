@@ -1,80 +1,114 @@
-# P-0222 UV Floor PCB Design Repository
+# P-0222 | UV Floor Sanitization Unit
 
-## Overview
-This repository contains hardware design deliverables for project P-0222 (UV Floor Sanitization Unit) developed for Satview Broadband Ltd. under Logic Reliance engineering processes.
+> Low-voltage custom PCB replacing an Arduino-based prototype for a hospital UV floor sanitization platform.
 
-## Project Identification
-- Project code: P-0222
-- Project name: UV Floor Sanitization Unit
-- Primary discipline: PCB hardware design
-- Design scope: requirements traceability, calculations, schematic capture, layout development, and supporting technical documentation
+| Project | Status | Current package | Owner |
+| --- | --- | --- | --- |
+| P-0222 | Review-ready | Manufacturing package under final release review | Ing. Vega Maximiliano |
+
+## Project Overview
+
+Satview Broadband Ltd. is developing a UV foot-sanitizing floor unit for hospital environments. This project replaces the prototype controller with a professional PCB that manages the UV cycle, relay actuation, protected 24 VDC input, power regulation, timer selection, and external component connections.
+
+The design is developed under Logic Reliance engineering processes and follows the project requirements, acceptance criteria, and KiCad library governance defined for the work.
+
+## Current Status
+
+The current PCB layout and manufacturing package have passed the latest consistency audit.
+
+### Verified
+
+- BOM: 40 grouped entries and 70 component references.
+- Assembly positions: DNP components excluded from the pick-and-place output.
+- Component sourcing: manufacturer, MPN, and DigiKey fields populated in the current EBOM.
+- Fabrication outputs: Gerbers, ODB++, PTH/NPTH drills, assembly files, drawings, and 3D model present.
+- Surface finish: `ENEPIG`.
+- Manufacturing drill outputs: duplicate PTH/NPTH files removed.
+- Logic Reliance BOM workbook: editable Excel version generated from the KiCad CSV.
+
+### Release blocker
+
+- The Gerber job file still reports `Revision: rev?`. Assign the formal board revision before releasing the manufacturing package to a supplier.
 
 ## Technical Scope
-- Electrical design calculations and sizing validation
-- Schematic definition and iterative review
-- PCB implementation and packaging decisions
-- Supporting simulation outputs and reference material
-- Design documentation aligned with project requirements and acceptance criteria
 
-## Repository Structure (Current Baseline)
-This section is a controlled inventory and must be updated when directories are added, removed, or renamed.
-Only tracked and publishable project content is listed below; local ignored folders are intentionally excluded.
+- Requirements traceability and acceptance criteria.
+- Electrical sizing and power regulation validation.
+- STM32C011F6 MCU control.
+- Relay-driven UV load switching.
+- Reverse-polarity, surge, fuse, and transient protection.
+- Configurable cycle timer through DIP switches.
+- KiCad schematic capture, PCB layout, manufacturing outputs, and supporting evidence.
 
-Tracked top-level directories:
-- `pcb_0222/`: KiCad project files (schematic, PCB, project configuration, and local library artifacts)
-- `project_docs/`: project evidence package (requirements, design notes, references, and datasheets)
+## Design Boundaries
 
-Main directories under `project_docs/`:
-- `design/`: implementation reports, pinout definitions, and design outputs
-- `datasheets/`: component manufacturer documentation and package assets
-- `references/`: external technical references used for engineering decisions
-- `requirements/`: PRD and processor requirement documents
+This iteration includes the low-voltage PCB only.
 
-Directories currently present under `project_docs/design/`:
+Out of scope:
+
+- 120 VAC design, which remains within the external certified power supply.
+- Mechanical enclosure design.
+- Regulatory certification.
+- UV strip sourcing and final optical characterization.
+
+## Manufacturing Package
+
+The current package is delivered as:
+
+`pcb_0222/outputs/Manufacture/20260816-P_0222_manufacture.zip`
+
+| Directory or file | Purpose |
+| --- | --- |
+| `3D/` | STEP model and board snapshot |
+| `ASM/` | Pick-and-place positions and assembly layers |
+| `BOM/` | KiCad EBOM CSV and Logic Reliance Excel BOM |
+| `DRILLS/` | Plated and non-plated drill files |
+| `DWG/` | Schematic and assembly drawings |
+| `GBR/` | Gerber layers and fabrication job file |
+| `pcb_0222-odb.zip` | ODB++ fabrication exchange package inside the manufacturing package |
+
+The archive contains the editable company-format BOM, fabrication outputs, assembly files, drawings, and 3D model.
+
+## Repository Contents
+
+This is the controlled inventory of publishable project content. Local process notes, AI working files, and internal assistant configuration are intentionally excluded from publication.
+
+| Directory | Contents |
+| --- | --- |
+| `pcb_0222/` | KiCad project, schematic, PCB, local library assets, and manufacturing outputs |
+| `project_docs/design/` | MCU boot, pinout, power supply, and implementation records |
+| `project_docs/datasheets/` | Manufacturer datasheets and component package evidence |
+| `project_docs/references/` | External technical references used for engineering decisions |
+| `project_docs/requirements/` | Released PRD and processor requirements |
+
+### Design Records
+
 - `mcu_boot/`
 - `mcu_pinout/`
 - `power_supply/`
 
-Directories currently present under `project_docs/datasheets/`:
-- `buttons/`
-- `conectors/`
-- `debugger/`
-- `dipswitch/`
-- `inductor/`
-- `leds/`
-- `mcu/`
-- `nails/`
-- `npn/`
-- `pmos/`
-- `pptc/`
-- `psu/`
-- `relay/`
-- `rotary/`
-- `tvs/`
-- `xtal/`
-- `zenner/`
+### Datasheet Categories
 
-Naming note:
-- Some directory names reflect legacy repository naming conventions (for example, `conectors/` and `zenner/`) and are preserved as-is for traceability.
+`buttons/` · `conectors/` · `debugger/` · `dipswitch/` · `inductor/` · `leds/` · `mcu/` · `nails/` · `npn/` · `pmos/` · `pptc/` · `psu/` · `relay/` · `rotary/` · `tvs/` · `xtal/` · `zenner/`
 
-## Current Technical Status
-- The current PCB layout iteration is ready for review following the latest schematic review integration.
-- MCU boot/programming policy documentation is available in `project_docs/design/mcu_boot/`.
-- Replacement datasheet packages have been incorporated for component review cycles.
-- PCB implementation files have been updated to the review baseline for the current iteration.
+Some directory names preserve legacy spelling for traceability, including `conectors/` and `zenner/`.
 
-## Responsible Engineer
-- Ing. Vega Maximiliano
+## Key Documents
+
+- [Project context baseline](p-0222.md)
+- [Released PRD](project_docs/requirements/PRD%20v1.0.md)
+- [Processor requirements](project_docs/requirements/Processor%20Requirements.md)
+- [MCU boot and programming records](project_docs/design/mcu_boot/)
+- [MCU pinout records](project_docs/design/mcu_pinout/)
+- [Power supply records](project_docs/design/power_supply/)
 
 ## General Project Updates
-- 2026-07-27: KiCad project files were uploaded; schematic baseline was published with pending MCU section completion.
-- 2026-07-28: MCU boot/programming note was added with SWD as primary path and provisional USART/I2C recovery alternatives.
-- 2026-07-28: MCU boot policy note was revised to align BOOT0 handling with STM32C0 internal reset pull behavior.
-- 2026-07-28: Documentation inventory was aligned to the `project_docs/design/` structure.
-- 2026-07-29: Footprint and related datasheet assets entered active review, including replacement files for validation.
-- 2026-07-30: Placement review started with updated PCB/schematic files and generation of new PCB output and exchange artifacts for validation.
-- 2026-07-30: Placement review artifacts were refreshed; the output set now tracks updated PDF/STEP/snapshot files from the latest placement iteration.
-- 2026-08-02: Schematic review comments were incorporated; PCB and output artifacts were updated to match the latest reviewed schematic state.
-- 2026-08-09: Layout iteration is in progress with synchronized schematic/PCB updates and refreshed connector datasheet support.
-- 2026-08-09: Layout review continued with additional placement and routing adjustments in the active PCB revision.
-- 2026-08-11: The active layout iteration reached review-ready status with synchronized PCB and schematic updates.
+
+- 2026-07-27: KiCad project files were uploaded and the schematic baseline was published.
+- 2026-07-28: SWD programming guidance and STM32C0 BOOT0 handling were documented.
+- 2026-07-29: Footprint and datasheet review entered the active validation cycle.
+- 2026-07-30: Placement outputs, drawings, STEP model, and exchange artifacts were refreshed.
+- 2026-08-02: Schematic review comments were incorporated into the PCB and manufacturing outputs.
+- 2026-08-09: Layout placement and routing review continued with synchronized schematic and PCB updates.
+- 2026-08-11: The active layout iteration reached review-ready status.
+- 2026-08-16: The manufacturing package audit confirmed BOM, assembly, fabrication, and ODB++ consistency; formal Gerber revision assignment remains pending.
