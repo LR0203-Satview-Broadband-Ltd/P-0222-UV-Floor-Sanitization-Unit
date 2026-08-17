@@ -23,6 +23,7 @@ The PCB layout has not yet passed formal review. A preliminary manufacturing pac
 - Component sourcing: manufacturer, MPN, and DigiKey fields populated in the current EBOM.
 - Fabrication outputs: Gerbers, ODB++, PTH/NPTH drills, assembly files, drawings, and 3D model present.
 - Surface finish: `ENEPIG`.
+- Board UID and board specifications added to the `F.Fab` layer and assembly drawing.
 - Manufacturing drill outputs: duplicate PTH/NPTH files removed.
 - Logic Reliance BOM workbook: editable Excel version generated from the KiCad CSV.
 
@@ -114,3 +115,4 @@ Some directory names preserve legacy spelling for traceability, including `conec
 - 2026-08-09: Layout placement and routing review continued with synchronized schematic and PCB updates.
 - 2026-08-11: The active layout iteration was prepared for formal review.
 - 2026-08-16: A preliminary manufacturing package was generated to support the pending layout review; it is not approved for supplier release.
+- 2026-08-16: Board UID and board specifications were added to the `F.Fab` layer and assembly drawing to improve manufacturing traceability.
