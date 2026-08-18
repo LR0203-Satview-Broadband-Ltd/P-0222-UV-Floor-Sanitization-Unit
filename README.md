@@ -10,7 +10,7 @@
 
 Satview Broadband Ltd. is developing a UV foot-sanitizing floor unit for hospital environments. This project replaces the prototype controller with a professional PCB that manages the UV cycle, relay actuation, protected 24 VDC input, power regulation, timer selection, and external component connections.
 
-The design is developed under Logic Reliance engineering processes and follows the project requirements, acceptance criteria, and KiCad library governance defined for the work.
+The current released baseline for the project is the PRD v1.1 package in `project_docs/requirements/PRD v1.1.md`. The design remains under Logic Reliance engineering processes and follows the project requirements, acceptance criteria, and KiCad library governance defined for the work.
 
 ## Current Status
 
@@ -99,7 +99,7 @@ Some directory names preserve legacy spelling for traceability, including `conec
 ## Key Documents
 
 - [Project context baseline](p-0222.md)
-- [Released PRD](project_docs/requirements/PRD%20v1.0.md)
+- [Released PRD](project_docs/requirements/PRD%20v1.1.md)
 - [Processor requirements](project_docs/requirements/Processor%20Requirements.md)
 - [MCU boot and programming records](project_docs/design/mcu_boot/)
 - [MCU pinout records](project_docs/design/mcu_pinout/)
@@ -116,3 +116,4 @@ Some directory names preserve legacy spelling for traceability, including `conec
 - 2026-08-11: The active layout iteration was prepared for formal review.
 - 2026-08-16: A preliminary manufacturing package was generated to support the pending layout review; it is not approved for supplier release.
 - 2026-08-16: Board UID and board specifications were added to the `F.Fab` layer and assembly drawing to improve manufacturing traceability.
+- 2026-08-18: Repository documentation was refreshed to align the README, project baseline, and automation instructions with the current PRD v1.1 status and the pending formal layout review.

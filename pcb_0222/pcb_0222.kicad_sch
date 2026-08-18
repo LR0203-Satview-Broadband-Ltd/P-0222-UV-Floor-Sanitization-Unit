@@ -16970,7 +16970,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "S_switches_rotary:1-1825013-0"
+		(symbol "S_switches_rotary:CD10RM0SB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -16986,7 +16986,7 @@
 					)
 				)
 			)
-			(property "Value" "1-1825013-0"
+			(property "Value" "CD10RM0SB"
 				(at 1.27 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -16996,7 +16996,7 @@
 					)
 				)
 			)
-			(property "Footprint" "switches_smd:1-1825013-0"
+			(property "Footprint" "switches_smd:CD10RM0SB"
 				(at 0.254 -4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -17018,7 +17018,7 @@
 					)
 				)
 			)
-			(property "Description" "SWITCH ROTARY DIP BCD 0.4VA 20V"
+			(property "Description" "Dip Switch BCD 10 Position Surface Mount Rotary for Tool Actuator 0.4VA 20VAC/DC"
 				(at 1.27 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -17029,7 +17029,7 @@
 					)
 				)
 			)
-			(property "PARTNO" "1-1825013-0"
+			(property "PARTNO" "CD10RM0SB"
 				(at 2.54 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -17084,7 +17084,7 @@
 					)
 				)
 			)
-			(property "MANUFACTURER" "TE Connectivity ALCOSWITCH Switches"
+			(property "MANUFACTURER" "C&K"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -17095,7 +17095,7 @@
 					)
 				)
 			)
-			(property "DIGIKEY_PN_CT" "2266-1-1825013-0-ND"
+			(property "DIGIKEY_PN_CT" "CKN6158-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -17106,7 +17106,7 @@
 					)
 				)
 			)
-			(symbol "1-1825013-0_0_1"
+			(symbol "CD10RM0SB_0_1"
 				(polyline
 					(pts
 						(xy -5.08 3.81) (xy -3.81 3.81)
@@ -17304,7 +17304,7 @@
 					)
 				)
 			)
-			(symbol "1-1825013-0_1_0"
+			(symbol "CD10RM0SB_1_0"
 				(pin passive line
 					(at 5.08 7.62 180)
 					(length 2.54)
@@ -17414,7 +17414,7 @@
 					)
 				)
 			)
-			(symbol "1-1825013-0_1_1"
+			(symbol "CD10RM0SB_1_1"
 				(polyline
 					(pts
 						(xy -5.08 10.16) (xy 2.54 10.16) (xy 2.54 -6.35) (xy -5.08 -6.35) (xy -5.08 10.16)
@@ -21325,6 +21325,12 @@
 		(uuid "42b85dc4-cc70-4a14-8dd4-ca20723ad3b1")
 	)
 	(junction
+		(at 87.63 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "444d85c6-2dd9-4a40-8ba4-3923b808db52")
+	)
+	(junction
 		(at 34.29 31.75)
 		(diameter 1.27)
 		(color 255 0 0 1)
@@ -21649,12 +21655,6 @@
 		(uuid "d393ec61-ccaa-47b3-b3a9-93ea43bf3d1e")
 	)
 	(junction
-		(at 87.63 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d51a5433-7b15-4423-8d5d-0c9c8b08bc5c")
-	)
-	(junction
 		(at 113.03 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21732,7 +21732,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 96.52) (xy 87.63 93.98)
+			(xy 87.63 95.25) (xy 87.63 93.98)
 		)
 		(stroke
 			(width 0)
@@ -25384,17 +25384,6 @@
 		)
 		(uuid "4cce688a-5f01-4dec-a61b-7f3a733be672")
 	)
-	(label "MCU_BCD3"
-		(at 31.75 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5aefe043-6385-4da0-aec4-f5b703fdd6fe")
-	)
 	(label "MCU_SW1"
 		(at 91.44 125.73 180)
 		(effects
@@ -25549,8 +25538,8 @@
 		)
 		(uuid "cbf3cc13-0d29-4370-83a0-4f51f076bd15")
 	)
-	(label "MCU_BCD0"
-		(at 31.75 86.36 0)
+	(label "MCU_BCD3"
+		(at 31.75 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25558,7 +25547,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd92cf0f-7d46-439e-9270-a6c1b10f056e")
+		(uuid "d10c7ddd-02dd-4a2d-836e-432046d2d5e6")
 	)
 	(label "MCU_DIP2"
 		(at 34.29 132.08 0)
@@ -25592,6 +25581,17 @@
 			(justify right bottom)
 		)
 		(uuid "e930c719-5ac7-4e18-b4ed-c1fe488e3765")
+	)
+	(label "MCU_BCD0"
+		(at 31.75 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb001584-10df-4dfc-9fec-835a207412ca")
 	)
 	(label "SDA1"
 		(at 101.6 177.8 0)
@@ -27624,7 +27624,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRT188R61H105KE13D"
+		(property "PARTNO" "CGA6P1X7R1N106K250AC"
 			(at 246.38 127 0)
 			(hide yes)
 			(show_name no)
@@ -30322,7 +30322,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±10% 75V Ceramic Capacitor X7R 1210 (3225 Metric) AEC-Q200"
+		(property "Description" "10 µF ±10% 75V Ceramic Capacitor X7R 1210"
 			(at 247.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -30333,7 +30333,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRT188R61H105KE13D"
+		(property "PARTNO" "CGA6P1X7R1N106K250AC"
 			(at 247.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -33083,7 +33083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LTST-C190KSKT"
+		(property "Value" "LTST-C190KRKT"
 			(at 203.2 128.2699 0)
 			(hide yes)
 			(show_name no)
@@ -35085,7 +35085,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 96.52 0)
+		(at 87.63 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35095,7 +35095,7 @@
 		(dnp no)
 		(uuid "741d30f7-80ac-4908-aaf1-3984ea752fb3")
 		(property "Reference" "#PWR017"
-			(at 87.63 102.87 0)
+			(at 87.63 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35106,7 +35106,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 100.33 0)
+			(at 87.884 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35116,7 +35116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 96.52 0)
+			(at 87.63 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35127,7 +35127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 96.52 0)
+			(at 87.63 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35138,7 +35138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 96.52 0)
+			(at 87.63 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43844,175 +43844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "S_switches_rotary:1-1825013-0")
-		(at 78.74 93.98 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f2d3b1c0-a697-431d-a613-be0bb187e196")
-		(property "Reference" "S2"
-			(at 80.264 81.788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-1825013-0"
-			(at 79.756 101.854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "switches_smd:1-1825013-0"
-			(at 78.486 98.806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SWITCH ROTARY DIP BCD 0.4VA 20V"
-			(at 77.47 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "1-1825013-0"
-			(at 76.2 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VER" "1"
-			(at 81.28 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "REV" "0"
-			(at 76.2 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CRITICAL" ""
-			(at 78.74 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EXTERNAL" ""
-			(at 78.74 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity ALCOSWITCH Switches"
-			(at 78.74 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN_CT" "2266-1-1825013-0-ND"
-			(at 78.74 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "e27b5e8e-38e1-4f8d-9b0f-e8a5c1f75332")
-		)
-		(pin "2"
-			(uuid "e666d608-8faf-404f-a758-5d0591d24da6")
-		)
-		(pin "C1"
-			(uuid "f3354332-aa7a-4243-a94b-41c58e40007d")
-		)
-		(pin "1"
-			(uuid "1261a9a3-b615-41c4-a560-8ae83793966d")
-		)
-		(pin "C2"
-			(uuid "a53e66af-bcd7-4a4d-a309-834cc06cce89")
-		)
-		(pin "4"
-			(uuid "e5754410-b064-4073-a85d-e615bf581d30")
-		)
-		(instances
-			(project "pcb_0222"
-				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TP_testpoints:TP_SMD_2MM")
 		(at 48.26 93.98 0)
 		(unit 1)
@@ -44151,6 +43982,175 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S_switches_rotary:CD10RM0SB")
+		(at 78.74 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4704c02-c9bc-45a7-af7d-16033ce9ff73")
+		(property "Reference" "S2"
+			(at 80.01 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD10RM0SB"
+			(at 79.248 102.108 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "switches_smd:CD10RM0SB"
+			(at 78.486 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dip Switch BCD 10 Position Surface Mount Rotary for Tool Actuator 0.4VA 20VAC/DC"
+			(at 77.47 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CD10RM0SB"
+			(at 76.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 81.28 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 76.2 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 78.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 78.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 78.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN_CT" "CKN6158-ND"
+			(at 78.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0f8814b1-47a0-4469-89b4-32bca3751b2f")
+		)
+		(pin "C2"
+			(uuid "d1d42fa2-3170-43a4-9bee-7f6cb86ff80a")
+		)
+		(pin "1"
+			(uuid "2ac5a84c-407d-44a3-8946-ac4869128d02")
+		)
+		(pin "C1"
+			(uuid "3b9348b7-f406-4eed-ac6a-ac83e91ae956")
+		)
+		(pin "2"
+			(uuid "3583b1ac-3edc-4345-8a17-c807ea1d826f")
+		)
+		(pin "8"
+			(uuid "286ea644-f717-4889-8eae-f4ef05533dc2")
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "S2")
 					(unit 1)
 				)
 			)
