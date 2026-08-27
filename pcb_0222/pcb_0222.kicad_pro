@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 0,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.254,
+          "corner_radius": 0.25,
           "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.254,
-          "min_island_area": 0.0021474836,
-          "min_thickness": 0.1524,
+          "min_clearance": 0.5,
+          "min_island_area": 9.9999993548,
+          "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.3048,
-          "thermal_relief_spoke_width": 1.0
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 0.8
         }
       },
       "diff_pair_dimensions": [
@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "20260801"
+      "sch_revision": "20260827"
     },
     "layer_pairs": [],
     "layer_presets": [],

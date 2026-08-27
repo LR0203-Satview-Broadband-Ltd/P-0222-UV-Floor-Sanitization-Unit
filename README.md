@@ -4,7 +4,7 @@
 
 | Project | Status | Current package | Owner |
 | --- | --- | --- | --- |
-| P-0222 | Layout review pending | Preliminary manufacturing package generated | Ing. Vega Maximiliano |
+| P-0222 | Preliminary layout review completed | Preliminary manufacturing package requires regeneration | Ing. Vega Maximiliano |
 
 ## Project Overview
 
@@ -14,7 +14,7 @@ The current released baseline for the project is the PRD v1.1 package in `projec
 
 ## Current Status
 
-The PCB layout has not yet passed formal review. A preliminary manufacturing package has been generated to support the upcoming layout review and early manufacturing feedback; it is not an approved production release.
+The preliminary layout review was completed on 2026-08-27. The resulting updates include the C5, C7, and C12 part numbers and the D1 and R7 values and part numbers. The preliminary manufacturing package must be regenerated and reviewed before formal approval; it is not an approved production release.
 
 ### Preliminary Package Contents
 
@@ -29,9 +29,9 @@ The PCB layout has not yet passed formal review. A preliminary manufacturing pac
 
 ### Release Conditions
 
-- Complete and approve the formal layout review.
-- Assign the formal board revision in the Gerber job file, which currently reports `Revision: rev?`.
-- Regenerate and review the manufacturing outputs after approval before releasing them to a supplier.
+ Obtain formal layout-review approval.
+ Assign the formal board revision in the Gerber job file, which currently reports `Revision: rev?`.
+ Regenerate and review the manufacturing outputs with the preliminary-review changes before releasing them to a supplier.
 
 ## Technical Scope
 
@@ -117,3 +117,5 @@ Some directory names preserve legacy spelling for traceability, including `conec
 - 2026-08-16: A preliminary manufacturing package was generated to support the pending layout review; it is not approved for supplier release.
 - 2026-08-16: Board UID and board specifications were added to the `F.Fab` layer and assembly drawing to improve manufacturing traceability.
 - 2026-08-18: Repository documentation was refreshed to align the README, project baseline, and automation instructions with the current PRD v1.1 status and the pending formal layout review.
+- 2026-08-27: Preliminary layout review completed; C5, C7, and C12 part numbers and D1 and R7 values and part numbers were updated. Formal approval and manufacturing-output regeneration remain pending.
+

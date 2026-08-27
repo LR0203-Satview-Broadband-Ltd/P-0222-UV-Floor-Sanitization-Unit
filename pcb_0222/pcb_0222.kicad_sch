@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UV Floor Sanitization Unit")
-		(date "2026-08-01")
-		(rev "20260801")
+		(date "2026-08-27")
+		(rev "20260827")
 		(company "Designed by Logic Reliance for Satview Broadband Ltd")
 	)
 	(lib_symbols
@@ -3455,270 +3455,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C_capacitors_ceramic:C_1210_10uF_75V_X7R_AECQ200"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uF"
-				(at 0 -2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "passives_smd:C_1210_TDK_CGA6_2.8mm_Tall"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10 µF ±10% 75V Ceramic Capacitor X7R 1210 (3225 Metric) AEC-Q200"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTNO" "GRT188R61H105KE13D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "VER" "1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "REV" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "CRITICAL" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "EXTERNAL" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "VOLTAGE" "75V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TOLERANCE" "10%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "TEMP. COEFF." "X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MANUFACTURER" "TDK"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DIGIKEY_PN_CT" "445-181658-1-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_1210_10uF_75V_X7R_AECQ200_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.524) (xy -0.508 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.524) (xy 0.508 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1210_10uF_75V_X7R_AECQ200_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "D_diodes_schottky:B5819W"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5433,7 +5169,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "D_diodes_zener:NZH5V1B"
+		(symbol "D_diodes_zener:BZT52C5V1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5455,7 +5191,7 @@
 					)
 				)
 			)
-			(property "Value" "NZH5V1B,115"
+			(property "Value" "BZT52C5V1"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5498,7 +5234,7 @@
 					)
 				)
 			)
-			(property "PARTNO" "NZH5V1B,115"
+			(property "PARTNO" "BZT52C5V1"
 				(at 1.27 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5553,7 +5289,7 @@
 					)
 				)
 			)
-			(property "MANUFACTURER" "Nexperia USA Inc."
+			(property "MANUFACTURER" "Diotec Semiconductor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5564,7 +5300,7 @@
 					)
 				)
 			)
-			(property "DIGIKEY_PN_CT" "1727-NZH5V1B,115CT-ND"
+			(property "DIGIKEY_PN_CT" "4878-BZT52C5V1CT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5575,7 +5311,7 @@
 					)
 				)
 			)
-			(symbol "NZH5V1B_0_0"
+			(symbol "BZT52C5V1_0_0"
 				(polyline
 					(pts
 						(xy -1.778 -0.762) (xy -1.27 0)
@@ -5637,7 +5373,7 @@
 					)
 				)
 			)
-			(symbol "NZH5V1B_1_0"
+			(symbol "BZT52C5V1_1_0"
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -5675,7 +5411,7 @@
 					)
 				)
 			)
-			(symbol "NZH5V1B_1_1"
+			(symbol "BZT52C5V1_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -1.27 -2.54) (xy 1.27 -2.54) (xy 0 0)
@@ -15246,7 +14982,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "R_resistors:R_2512_1K_1%_1W_AEC-Q200"
+		(symbol "R_resistors:R_1206_3.6K_1%_0.25W"
 			(pin_numbers
 				(hide yes)
 			)
@@ -15270,7 +15006,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "1K"
+			(property "Value" "3.6K"
 				(at -2.54 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15281,7 +15017,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "passives_smd:R_2512"
+			(property "Footprint" "passives_smd:R_1206"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15304,40 +15040,7 @@
 					)
 				)
 			)
-			(property "Description" "1 kOhms ±1% 1W Chip Resistor 2512 (6332 Metric) Automotive AEC-Q200 Thick Film"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTNO" "CRCW25121K00FKEG"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "VER" "1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "REV" "0"
+			(property "Description" "RES 3.6K OHM 1% 1/4W 1206"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15359,7 +15062,18 @@
 					)
 				)
 			)
-			(property "EXTERNAL" ""
+			(property "REV" "1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTNO" "RC1206FR-073K6L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15381,7 +15095,7 @@
 					)
 				)
 			)
-			(property "PWR" "1W"
+			(property "PWR_DISSIPATION" "0.25W"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15392,7 +15106,7 @@
 					)
 				)
 			)
-			(property "TEMP. COEFF." "100 ppm/°C"
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15403,7 +15117,7 @@
 					)
 				)
 			)
-			(property "MANUFACTURER" "Vishay Dale"
+			(property "DIGIKEY_PN_CT" "311-3.60KFRCT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15414,18 +15128,7 @@
 					)
 				)
 			)
-			(property "DIGIKEY_PN_CT" "541-1.00KAFCT-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_2512_1K_1%_1W_AEC-Q200_0_0"
+			(symbol "R_1206_3.6K_1%_0.25W_0_0"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -15463,7 +15166,7 @@
 					)
 				)
 			)
-			(symbol "R_2512_1K_1%_1W_AEC-Q200_0_1"
+			(symbol "R_1206_3.6K_1%_0.25W_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -21229,12 +20932,6 @@
 		(uuid "17a3cba7-847d-45b6-b3f8-8274a940d38a")
 	)
 	(junction
-		(at 40.64 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1892fce4-8461-4cec-adef-ef81376e97a9")
-	)
-	(junction
 		(at 40.64 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21269,6 +20966,12 @@
 		(diameter 1.27)
 		(color 0 0 0 1)
 		(uuid "222a9a8d-bcde-4fcd-9516-a1e3b0f82a8a")
+	)
+	(junction
+		(at 40.64 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b028982-ca62-4573-aeab-9910d83513a3")
 	)
 	(junction
 		(at 58.42 93.98)
@@ -22582,6 +22285,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 163.83) (xy 44.45 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fdadb35-e3a6-44d3-b923-4657edbb6a1a")
+	)
+	(wire
+		(pts
 			(xy 72.39 30.48) (xy 72.39 31.75)
 		)
 		(stroke
@@ -23220,16 +22933,6 @@
 			(type default)
 		)
 		(uuid "8f177c28-804c-4db0-a7a0-796c2919548c")
-	)
-	(wire
-		(pts
-			(xy 40.64 163.83) (xy 44.45 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f88346d-f257-401e-85ca-d7dc62474aba")
 	)
 	(wire
 		(pts
@@ -27559,196 +27262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "C_capacitors_ceramic:C_1210_10uF_75V_X7R_AECQ200")
-		(at 246.38 127 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "19745440-630e-4606-bc5e-ecde4cc11345")
-		(property "Reference" "C12"
-			(at 249.428 126.492 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 249.428 128.524 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "passives_smd:C_1210_TDK_CGA6_2.8mm_Tall"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 µF ±10% 75V Ceramic Capacitor X7R 1210 (3225 Metric) AEC-Q200"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "CGA6P1X7R1N106K250AC"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VER" "1"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "REV" "0"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CRITICAL" ""
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EXTERNAL" ""
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" "75V"
-			(at 251.46 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOLERANCE" "10%"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TEMP. COEFF." "X7R"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN_CT" "445-181658-1-ND"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "TDK"
-			(at 246.38 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "45f4484f-499f-4660-b947-f2ef4be3434a")
-		)
-		(pin "1"
-			(uuid "d8f62ef2-941e-43a7-9255-c34f7185289f")
-		)
-		(instances
-			(project "pcb_0222"
-				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 147.32 163.83 0)
 		(mirror y)
@@ -28896,7 +28409,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X7R 0603"
+		(property "Description" "CAP0603 X7R 10UF 10% 10V"
 			(at 195.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28907,7 +28420,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM188Z71A106MA73J"
+		(property "PARTNO" "GMC10X7R106K10NT"
 			(at 195.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28973,7 +28486,7 @@
 				)
 			)
 		)
-		(property "TOLERANCE" "20%"
+		(property "TOLERANCE" "10%"
 			(at 195.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28995,7 +28508,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Cal-Chip Electronics, Inc."
 			(at 195.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -29006,7 +28519,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY_PN_CT" "490-GRM188Z71A106MA73JCT-ND"
+		(property "DIGIKEY_PN_CT" "4713-GMC10X7R106K10NTCT-ND"
 			(at 195.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -30322,7 +29835,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±10% 75V Ceramic Capacitor X7R 1210"
+		(property "Description" "10 µF ±10% 75V Ceramic Capacitor X7S 1210 (3225 Metric)"
 			(at 247.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -30333,7 +29846,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "CGA6P1X7R1N106K250AC"
+		(property "PARTNO" "CGA6P1X7S1N106K250AE"
 			(at 247.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -30409,7 +29922,7 @@
 				)
 			)
 		)
-		(property "TEMP. COEFF." "X7R"
+		(property "TEMP. COEFF." "X7S"
 			(at 247.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -30420,7 +29933,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY_PN_CT" "445-181658-1-ND"
+		(property "DIGIKEY_PN_CT" "445-CGA6P1X7S1N106K250AECT-ND"
 			(at 247.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -31436,7 +30949,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM188R6YA475KE15D"
+		(property "PARTNO" "CL10A475KL8NRNC"
 			(at 104.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -31524,7 +31037,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 104.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -31535,7 +31048,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY_PN_CT" "490-7205-1-ND"
+		(property "DIGIKEY_PN_CT" "1276-6794-1-ND"
 			(at 104.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -32786,6 +32299,164 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "R_resistors:R_1206_3.6K_1%_0.25W")
+		(at 60.96 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b46d491-54e7-4838-a2c8-6306dc6cc71f")
+		(property "Reference" "R7"
+			(at 63.5 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.6K"
+			(at 63.5 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives_smd:R_1206"
+			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 3.6K OHM 1% 1/4W 1206"
+			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "1"
+			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC1206FR-073K6L"
+			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PWR_DISSIPATION" "0.25W"
+			(at 65.786 51.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN_CT" "311-3.60KFRCT-ND"
+			(at 60.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "883bca14-8fae-4b86-a599-4aa7213a7c5a")
+		)
+		(pin "1"
+			(uuid "72b660df-dc56-467e-b248-0808468b22c2")
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -35084,6 +34755,197 @@
 		)
 	)
 	(symbol
+		(lib_id "C_capacitors_ceramic:C_0603_4.7uF_35V")
+		(at 40.64 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71bedc7a-c70a-46b2-b0fb-579dea751f53")
+		(property "Reference" "C15"
+			(at 34.036 159.512 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 34.036 162.306 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives_smd:C_0603"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 4.7UF 35V X5R 0603"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CL10A475KL8NRNC"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOLTAGE" "35V"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "10%"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TEMP. COEFF." "X5R"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN_CT" "1276-6794-1-ND"
+			(at 40.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c5faaf4-d57f-4441-92cc-b8ab3650c90a")
+		)
+		(pin "2"
+			(uuid "8fb3398c-5fe5-41d8-bccf-41426bce3ea2")
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 95.25 0)
 		(unit 1)
@@ -35155,164 +35017,6 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "D_diodes_zener:NZH5V1B")
-		(at 72.39 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78256143-cb2c-466a-b92a-96573ece40bf")
-		(property "Reference" "D1"
-			(at 75.692 37.592 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NZH5V1B,115"
-			(at 73.152 39.624 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "diodes_smd:SOD-123F"
-			(at 73.66 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DIODE ZENER 5.1V 500MW SOD123F"
-			(at 73.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "NZH5V1B,115"
-			(at 73.66 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VER" "1"
-			(at 71.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "REV" "0"
-			(at 73.66 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CRITICAL" ""
-			(at 72.39 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EXTERNAL" ""
-			(at 72.39 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Nexperia USA Inc."
-			(at 72.39 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN_CT" "1727-NZH5V1B,115CT-ND"
-			(at 72.39 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C"
-			(uuid "c8a2b9b3-ebe7-4d95-a4d7-1d32ebb4b2e3")
-		)
-		(pin "A"
-			(uuid "590c8e94-9cd0-4805-8641-46c1edbdd718")
-		)
-		(instances
-			(project "pcb_0222"
-				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -36188,6 +35892,197 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_1210_10uF_75V_X7R_AECQ200_1")
+		(lib_id "C_capacitors_ceramic:C_1210_10uF_75V_X7R_AECQ200")
+		(at 246.38 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "836fa9df-3d02-4f79-a8c3-5b38a0f4b114")
+		(property "Reference" "C12"
+			(at 249.682 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 249.174 128.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "passives_smd:C_1210_TDK_CGA6_2.8mm_Tall"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±10% 75V Ceramic Capacitor X7S 1210 (3225 Metric)"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "CGA6P1X7S1N106K250AE"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VER" "1"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "0"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CRITICAL" ""
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EXTERNAL" ""
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOLTAGE" "75V"
+			(at 251.46 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "10%"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TEMP. COEFF." "X7S"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN_CT" "445-CGA6P1X7S1N106K250AECT-ND"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 246.38 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d33e7ac6-6b67-4bbb-be54-10396b13e20b")
+		)
+		(pin "1"
+			(uuid "67dc243c-ee96-4e81-ade1-b0aa5f47a4d0")
+		)
+		(instances
+			(project "pcb_0222"
+				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -41535,8 +41430,8 @@
 		)
 	)
 	(symbol
-		(lib_id "C_capacitors_ceramic:C_0603_4.7uF_35V")
-		(at 40.64 160.02 90)
+		(lib_id "D_diodes_zener:BZT52C5V1")
+		(at 72.39 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41544,31 +41439,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d3cd7da1-3a4f-4972-88be-f989f27e5fb4")
-		(property "Reference" "C15"
-			(at 34.036 159.766 90)
+		(uuid "d322d2d6-16ee-4568-8325-75ffd7f83a7e")
+		(property "Reference" "D1"
+			(at 76.2 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 33.274 161.798 90)
+		(property "Value" "BZT52C5V1"
+			(at 73.152 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "passives_smd:C_0603"
-			(at 40.64 160.02 0)
+		(property "Footprint" "diodes_smd:SOD-123F"
+			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41579,7 +41474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 160.02 0)
+			(at 72.39 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41589,8 +41484,8 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 35V X5R 0603"
-			(at 40.64 160.02 0)
+		(property "Description" "DIODE ZENER 5.1V 500MW SOD123F"
+			(at 73.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41600,8 +41495,8 @@
 				)
 			)
 		)
-		(property "PARTNO" "GRM188R6YA475KE15D"
-			(at 40.64 160.02 0)
+		(property "PARTNO" "BZT52C5V1"
+			(at 73.66 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41612,7 +41507,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 40.64 160.02 0)
+			(at 71.12 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41623,7 +41518,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 40.64 160.02 0)
+			(at 73.66 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41634,7 +41529,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 40.64 160.02 0)
+			(at 72.39 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41645,7 +41540,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 40.64 160.02 0)
+			(at 72.39 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41655,8 +41550,8 @@
 				)
 			)
 		)
-		(property "VOLTAGE" "35V"
-			(at 40.64 160.02 0)
+		(property "MANUFACTURER" "Diotec Semiconductor"
+			(at 72.39 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41666,8 +41561,8 @@
 				)
 			)
 		)
-		(property "TOLERANCE" "10%"
-			(at 40.64 160.02 0)
+		(property "DIGIKEY_PN_CT" "4878-BZT52C5V1CT-ND"
+			(at 72.39 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41677,49 +41572,16 @@
 				)
 			)
 		)
-		(property "TEMP. COEFF." "X5R"
-			(at 40.64 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "A"
+			(uuid "0dd5156e-3e86-4799-a773-1580a55ad295")
 		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 40.64 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN_CT" "490-7205-1-ND"
-			(at 40.64 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3405a82e-2238-4dd0-a325-f6c8f980dd12")
-		)
-		(pin "2"
-			(uuid "459253fe-259a-45f0-84c2-7ad5470cd9b0")
+		(pin "C"
+			(uuid "0e840af2-0b6c-4b27-8ced-5930651a3d38")
 		)
 		(instances
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "C15")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -43568,198 +43430,6 @@
 			(project "pcb_0222"
 				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "R_resistors:R_2512_1K_1%_1W_AEC-Q200")
-		(at 60.96 48.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ec8792ad-5092-443a-bd74-dcd6904a2288")
-		(property "Reference" "R7"
-			(at 63.246 47.244 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 63.246 49.276 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "passives_smd:R_2512"
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1 kOhms ±1% 1W Chip Resistor 2512 (6332 Metric) Automotive AEC-Q200 Thick Film"
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTNO" "CRCW25121K00FKEG"
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VER" "1"
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "REV" "0"
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CRITICAL" ""
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EXTERNAL" ""
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TOLERANCE" "1%"
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PWR" "1W"
-			(at 64.516 51.308 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "TEMP. COEFF." "100 ppm/°C"
-			(at 60.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Vishay Dale"
-			(at 60.96 48.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN_CT" "541-1.00KAFCT-ND"
-			(at 60.96 48.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ade0ff9-05c9-4898-9c25-1ae4d486dcb8")
-		)
-		(pin "2"
-			(uuid "11bd2d23-5521-46ef-babf-51dadfea582a")
-		)
-		(instances
-			(project "pcb_0222"
-				(path "/9e623ed9-73f2-41e1-a5f3-2ec43260ffe9"
-					(reference "R7")
 					(unit 1)
 				)
 			)
