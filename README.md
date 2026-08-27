@@ -4,7 +4,7 @@
 
 | Project | Status | Current package | Owner |
 | --- | --- | --- | --- |
-| P-0222 | Preliminary layout review completed | Preliminary manufacturing package requires formal review | Ing. Vega Maximiliano |
+| P-0222 | Layout Review passed | Manufacturing package pending release checks | Ing. Vega Maximiliano |
 
 ## Project Overview
 
@@ -14,7 +14,7 @@ The current released baseline for the project is the PRD v1.1 package in `projec
 
 ## Current Status
 
-The preliminary layout review was completed on 2026-08-27. The resulting updates include the C5, C7, and C12 part numbers and the D1 and R7 values and part numbers. The preliminary manufacturing package must be regenerated and reviewed before formal approval; it is not an approved production release.
+The Layout Review passed on 2026-08-27. The resulting updates include the C5, C7, and C12 part numbers and the D1 and R7 values and part numbers. The manufacturing package still requires release checks before supplier release; it is not an approved production release.
 
 ### Preliminary Package Contents
 
@@ -29,7 +29,6 @@ The preliminary layout review was completed on 2026-08-27. The resulting updates
 
 ### Release Conditions
 
- Obtain formal layout-review approval.
  Assign the formal board revision in the Gerber job file, which currently reports `Revision: rev?`.
  Regenerate and review the manufacturing outputs with the preliminary-review changes before releasing them to a supplier.
 
