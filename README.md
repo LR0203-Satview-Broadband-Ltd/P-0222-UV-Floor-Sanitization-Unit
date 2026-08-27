@@ -4,7 +4,7 @@
 
 | Project | Status | Current package | Owner |
 | --- | --- | --- | --- |
-| P-0222 | Preliminary layout review completed | Preliminary manufacturing package requires regeneration | Ing. Vega Maximiliano |
+| P-0222 | Preliminary layout review completed | Preliminary manufacturing package requires formal review | Ing. Vega Maximiliano |
 
 ## Project Overview
 
@@ -58,7 +58,7 @@ Out of scope:
 
 The current package is delivered as:
 
-`pcb_0222/outputs/Manufacture/20260816-P_0222_manufacture.zip`
+`pcb_0222/outputs/Manufacture/20260827-P_0222_manufacture/`
 
 | Directory or file | Purpose |
 | --- | --- |

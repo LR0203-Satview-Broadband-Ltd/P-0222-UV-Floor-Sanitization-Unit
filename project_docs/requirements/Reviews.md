@@ -1,5 +1,17 @@
 # Reviews
 
+# PCB Review 2026/08/26 (Blaž)
+
+|     |     |
+| --- | --- |
+| 1   | Make sure there are not rule check errors:    ![](/api/files/01a03fe9-2a59-73bf-a63b-722d2dd5f2f0/image.png) |
+| 2   | C3 and C15 are out of stock. But probably not a problem if the board is assembled on China.  ![](/api/files/01a04006-892a-7308-9bc9-e745ada6590d/image.png) |
+| 3   | C5 similar case  ![](/api/files/01a04008-7519-74bc-bdc8-929ae16e9752/image.png) |
+| 4   | C7, C12 similar case  ![](/api/files/01a04009-26de-7004-a1aa-0cf9ccfbb7cd/image.png) |
+| 5   | D1 a bit more critical  ![](/api/files/01a04009-c987-7530-8cca-142dc6c6fbd1/image.png) |
+| 6   | The silkscreen is missing the PCB version (it would be v1 in this case). Example below.  ![](/api/files/01a0402d-ef1f-703d-92cf-e7f873ac540c/image.png) |
+| 7   | Did the customer approve the inclusion of our logo in the PCB?  ![](/api/files/01a04030-c926-7796-b64f-4b733b324f96/image.png) |
+
 # PCB Review 2026/08/16 (Ruslan)
 
 <div class="joplin-table-wrapper"><table style="width: 803px;"><tbody><tr><th colspan="1" rowspan="1" colwidth="49"><p data-id="takswppqcspu">1</p></th><td colspan="1" rowspan="1" colwidth="754"><p data-id="ryoquctkmlhi">Please add the board specs and board stack-up to the “Assembly” layer of the PCB design.</p><p data-id="rygyvwalnciz">Feel free to check an example from this design <a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/orgs/LR0201-Aura-Axis-Group-Inc/repositories">LR0201-Aura-Axis-Group-Inc repositories</a></p><p data-id="ayjezcmzgbbh">Here is an example:</p><p data-id="vqmbtobfidey"></p><img src="/api/files/01a00bd1-70cf-7125-8527-5f311e7ebf48/image.png" width="362" height="347" data-align="left" data-attachment-id="01a00bd1-70cf-7125-8527-5f311e7ebf48" data-size="37515" data-aspect-ratio="1.0433017591339648"><p data-id="haekttlvicyb"></p><p data-id="jhingjtszdcu"></p><img src="/api/files/01a00bd1-b2f0-709e-aad7-1fad62463650/image.png" width="460" height="233" data-align="left" data-attachment-id="01a00bd1-b2f0-709e-aad7-1fad62463650" data-size="43581" data-aspect-ratio="1.975824175824176"><p data-id="zhevvyfoobmg"></p><p data-id="jjgyqynabngb"></p></td></tr><tr><th colspan="1" rowspan="1" colwidth="49"><p data-id="udgtshalslsv">2</p></th><td colspan="1" rowspan="1" colwidth="754"><p data-id="yvwvcpwyrcft">Lets add UID to the PCB. The spreadsheet is here: <a target="_blank" rel="noopener noreferrer nofollow" href="https://docs.google.com/spreadsheets/d/1bgarIeeIMzeJS9GwWEmvJlo1JK8DhYBbbADzcFZ2ea8/edit?gid=1056530023#gid=1056530023">PCB UID - Google Sheets</a></p><p data-id="qlhqkcgbeopu">Here an example from a different project:</p><img src="/api/files/01a00bdb-be14-76a4-bd66-3021595c152d/image.png" width="316" height="202" data-align="left" data-attachment-id="01a00bdb-be14-76a4-bd66-3021595c152d" data-size="32520" data-aspect-ratio="1.5660377358490567"><p data-id="cbwkaybvdxvn"></p><pre><code>PCB NAME
