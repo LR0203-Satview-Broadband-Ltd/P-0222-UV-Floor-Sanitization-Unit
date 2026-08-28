@@ -4,7 +4,7 @@
 
 | Project | Status | Current package | Owner |
 | --- | --- | --- | --- |
-| P-0222 | Layout Review passed | Manufacturing package pending release checks | Ing. Vega Maximiliano |
+| P-0222 | Reviews passed; ready for release | Manufacturing package generated and ready for supplier release | Ing. Vega Maximiliano |
 
 ## Project Overview
 
@@ -14,9 +14,9 @@ The current released baseline for the project is the PRD v1.1 package in `projec
 
 ## Current Status
 
-The Layout Review passed on 2026-08-27. The resulting updates include the C5, C7, and C12 part numbers and the D1 and R7 values and part numbers. The manufacturing package still requires release checks before supplier release; it is not an approved production release.
+The PCB and schematic reviews passed. The latest manufacturing package was generated on 2026-08-28 and is ready for supplier release. The review updates include the C5, C7, and C12 part numbers and the D1 and R7 values and part numbers.
 
-### Preliminary Package Contents
+### Package Contents
 
 - BOM: 40 grouped entries and 70 component references.
 - Assembly positions: DNP components excluded from the pick-and-place output.
@@ -26,11 +26,6 @@ The Layout Review passed on 2026-08-27. The resulting updates include the C5, C7
 - Board UID and board specifications added to the `F.Fab` layer and assembly drawing.
 - Manufacturing drill outputs: duplicate PTH/NPTH files removed.
 - Logic Reliance BOM workbook: editable Excel version generated from the KiCad CSV.
-
-### Release Conditions
-
- Assign the formal board revision in the Gerber job file, which currently reports `Revision: rev?`.
- Regenerate and review the manufacturing outputs with the preliminary-review changes before releasing them to a supplier.
 
 ## Technical Scope
 
@@ -57,7 +52,7 @@ Out of scope:
 
 The current package is delivered as:
 
-`pcb_0222/outputs/Manufacture/20260827-P_0222_manufacture/`
+`pcb_0222/outputs/Manufacture/20260828-P_0222_manufacture/`
 
 | Directory or file | Purpose |
 | --- | --- |
@@ -68,8 +63,6 @@ The current package is delivered as:
 | `DWG/` | Schematic and assembly drawings |
 | `GBR/` | Gerber layers and fabrication job file |
 | `pcb_0222-odb.zip` | ODB++ fabrication exchange package inside the manufacturing package |
-
-The archive contains the editable company-format BOM, fabrication outputs, assembly files, drawings, and 3D model.
 
 ## Repository Contents
 
@@ -113,8 +106,9 @@ Some directory names preserve legacy spelling for traceability, including `conec
 - 2026-08-02: Schematic review comments were incorporated into the PCB and manufacturing outputs.
 - 2026-08-09: Layout placement and routing review continued with synchronized schematic and PCB updates.
 - 2026-08-11: The active layout iteration was prepared for formal review.
-- 2026-08-16: A preliminary manufacturing package was generated to support the pending layout review; it is not approved for supplier release.
+- 2026-08-16: A preliminary manufacturing package was generated to support the pending layout review.
 - 2026-08-16: Board UID and board specifications were added to the `F.Fab` layer and assembly drawing to improve manufacturing traceability.
 - 2026-08-18: Repository documentation was refreshed to align the README, project baseline, and automation instructions with the current PRD v1.1 status and the pending formal layout review.
-- 2026-08-27: Preliminary layout review completed; C5, C7, and C12 part numbers and D1 and R7 values and part numbers were updated. Formal approval and manufacturing-output regeneration remain pending.
+- 2026-08-27: Layout review passed; C5, C7, and C12 part numbers and D1 and R7 values and part numbers were updated.
+- 2026-08-28: Manufacturing documents were generated and the reviewed package was marked ready for supplier release.
 
