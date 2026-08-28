@@ -1,5 +1,15 @@
 # Reviews
 
+# Manufacturing Files Review 2026/08/27 (Blaž)
+
+|     |     |
+| --- | --- |
+| 1   | The 3D generated contains the DNP parts as mounted. I don’t think it’s critical for this project, but it worths account for it in future projects.  ![](/api/files/01a045b6-920f-7040-adab-737143928096/image.png) |
+| 2   | The BOM title block got a bit distorded:  ![](/api/files/01a045bb-a890-70db-9caf-d2b0a2c383c2/image.png)  Expected (example):  ![](/api/files/01a045bb-56f6-7205-93dd-3784b34786d5/image.png) |
+| 3   | The description column of the BOM file didn’t fill with the _Description_ field of the symbols but with the _Value_ field.  ![](/api/files/01a045bf-faff-768b-82a7-71b9d66e34a6/image.png) |
+| 4   | I suggest not including schematics in the manufacturing files. This is make reverse engineering more difficult.  ![](/api/files/01a045c1-fe85-73fd-a539-368632577a87/image.png) |
+| 5   | I don’t think it worths adding the bottom silkscreen to the gerber files package as it doesn’t add any relevant information an it implies an additional manufacturing process.  ![](/api/files/01a04816-857a-7386-99f7-4fe0acef1fba/image.png) |
+
 # PCB Review 2026/08/26 (Blaž)
 
 |     |     |

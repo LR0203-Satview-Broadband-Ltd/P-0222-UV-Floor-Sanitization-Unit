@@ -32425,7 +32425,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "MANUFACTURER" "YAGEO"
 			(at 60.96 48.26 0)
 			(hide yes)
 			(show_name no)
