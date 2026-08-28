@@ -58,12 +58,12 @@ The manufacturing package is delivered as:
 | --- | --- |
 | `Manufacture.Files.rev20280828.zip` | Manufacturing files package |
 | `Design.Files.rev20280828.zip` | Design source files |
-| `EBOM.rev20280828.xlsx` | Logic Reliance electronic BOM |
+| `EBOM.rev202608288.xlsx` | Logic Reliance electronic BOM |
 | `Mechanical.outputs.rev20280828.zip` | Mechanical outputs |
 | `schematics.rev20280828.pdf` | Schematic PDF |
 | `Top.View.rev2080828.png` | Board top-view image |
 
-The complete First Release v1 package is available at `pcb_0222/outputs/Releases/v1_20280828/`.
+The complete First Release v1 package is available at `pcb_0222/outputs/Releases/v1_20260828/`.
 
 ## Repository Contents
 
@@ -111,5 +111,5 @@ Some directory names preserve legacy spelling for traceability, including `conec
 - 2026-08-16: Board UID and board specifications were added to the `F.Fab` layer and assembly drawing to improve manufacturing traceability.
 - 2026-08-18: Repository documentation was refreshed to align the README, project baseline, and automation instructions with the current PRD v1.1 status and the pending formal layout review.
 - 2026-08-27: Layout review passed; C5, C7, and C12 part numbers and D1 and R7 values and part numbers were updated.
-- 2026-08-28: PCB, schematic, and manufacturing reviews were completed; First Release v1 artifacts were generated under `pcb_0222/outputs/Releases/v1_20280828/`.
+- 2026-08-28: PCB, schematic, and manufacturing reviews were completed; First Release v1 artifacts were generated under `pcb_0222/outputs/Releases/v1_20260828/`.
 
