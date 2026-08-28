@@ -4,7 +4,7 @@
 
 | Project | Status | Current package | Owner |
 | --- | --- | --- | --- |
-| P-0222 | First Release | Release package v1 generated and ready for supplier release | Ing. Vega Maximiliano |
+| P-0222 | Released | First Release v1 package complete and ready for supplier release | Ing. Vega Maximiliano |
 
 ## Project Overview
 
@@ -14,7 +14,7 @@ The current released baseline for the project is the PRD v1.1 package in `projec
 
 ## Current Status
 
-The PCB, schematic, and manufacturing reviews were completed. First Release v1 was generated on 2026-08-28 and is ready for supplier release. Review updates include the C5, C7, and C12 part numbers and the D1 and R7 values and part numbers. Review records remain available in `project_docs/requirements/Reviews.md`.
+The PCB, schematic, and manufacturing reviews were completed. First Release v1 was completed on 2026-08-28 and is ready for supplier release. Review updates include the C5, C7, and C12 part numbers and the D1 and R7 values and part numbers. Review records remain available in `project_docs/requirements/Reviews.md`.
 
 ### Package Contents
 
