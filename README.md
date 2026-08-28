@@ -4,7 +4,7 @@
 
 | Project | Status | Current package | Owner |
 | --- | --- | --- | --- |
-| P-0222 | Reviews passed; ready for release | Manufacturing package generated and ready for supplier release | Ing. Vega Maximiliano |
+| P-0222 | Review cycle completed; ready for first release | Manufacturing package generated and ready for supplier release | Ing. Vega Maximiliano |
 
 ## Project Overview
 
@@ -14,12 +14,12 @@ The current released baseline for the project is the PRD v1.1 package in `projec
 
 ## Current Status
 
-The PCB and schematic reviews passed. The latest manufacturing package was generated on 2026-08-28 and is ready for supplier release. The review updates include the C5, C7, and C12 part numbers and the D1 and R7 values and part numbers.
+The PCB, schematic, and manufacturing reviews were completed. The latest manufacturing package was generated on 2026-08-28 and is ready for the first supplier release. Review updates include the C5, C7, and C12 part numbers and the D1 and R7 values and part numbers. Review records remain available in `project_docs/requirements/Reviews.md`.
 
 ### Package Contents
 
 - BOM: 40 grouped entries and 70 component references.
-- Assembly positions: DNP components excluded from the pick-and-place output.
+- Assembly positions: pick-and-place files generated; DNP handling is recorded in the BOM and review notes.
 - Component sourcing: manufacturer, MPN, and DigiKey fields populated in the current EBOM.
 - Fabrication outputs: Gerbers, ODB++, PTH/NPTH drills, assembly files, drawings, and 3D model present.
 - Surface finish: `ENEPIG`.
@@ -60,9 +60,11 @@ The current package is delivered as:
 | `ASM/` | Pick-and-place positions and assembly layers |
 | `BOM/` | KiCad EBOM CSV and Logic Reliance Excel BOM |
 | `DRILLS/` | Plated and non-plated drill files |
-| `DWG/` | Schematic and assembly drawings |
+| `DWG/` | Assembly drawing |
 | `GBR/` | Gerber layers and fabrication job file |
 | `pcb_0222-odb.zip` | ODB++ fabrication exchange package inside the manufacturing package |
+
+The release archive is also available as `pcb_0222/outputs/Manufacture/UV Floor Sanitization Unit - 20280828 - release v1 .zip`.
 
 ## Repository Contents
 
@@ -110,5 +112,5 @@ Some directory names preserve legacy spelling for traceability, including `conec
 - 2026-08-16: Board UID and board specifications were added to the `F.Fab` layer and assembly drawing to improve manufacturing traceability.
 - 2026-08-18: Repository documentation was refreshed to align the README, project baseline, and automation instructions with the current PRD v1.1 status and the pending formal layout review.
 - 2026-08-27: Layout review passed; C5, C7, and C12 part numbers and D1 and R7 values and part numbers were updated.
-- 2026-08-28: Manufacturing documents were generated and the reviewed package was marked ready for supplier release.
+- 2026-08-28: PCB, schematic, and manufacturing reviews were completed; manufacturing documents and the first-release archive were generated.
 
