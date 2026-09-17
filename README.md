@@ -112,4 +112,5 @@ Some directory names preserve legacy spelling for traceability, including `conec
 - 2026-08-18: Repository documentation was refreshed to align the README, project baseline, and automation instructions with the current PRD v1.1 status and the pending formal layout review.
 - 2026-08-27: Layout review passed; C5, C7, and C12 part numbers and D1 and R7 values and part numbers were updated.
 - 2026-08-28: PCB, schematic, and manufacturing reviews were completed; First Release v1 artifacts were generated under `pcb_0222/outputs/Releases/v1_20260828/`.
+- 2026-09-17: The `SP1103C-01UTG` schematic symbol was updated, with the related schematic and PCB project files synchronized.
 

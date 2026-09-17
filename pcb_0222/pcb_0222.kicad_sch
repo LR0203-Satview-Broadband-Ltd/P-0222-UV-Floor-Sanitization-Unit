@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "UV Floor Sanitization Unit")
-		(date "2026-08-27")
+		(date "2026-09-17")
 		(rev "20260827")
 		(company "Designed by Logic Reliance for Satview Broadband Ltd")
 	)
@@ -4149,7 +4149,7 @@
 			(symbol "SP1103C-01UTG_0_0"
 				(polyline
 					(pts
-						(xy -1.524 0.762) (xy -1.27 1.27)
+						(xy -1.27 1.27) (xy -1.524 0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -4185,7 +4185,43 @@
 				)
 				(polyline
 					(pts
+						(xy 0 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -4221,6 +4257,18 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 3.81) (xy -1.27 3.81) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.54)
@@ -4240,7 +4288,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 6.35 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -15352,7 +15400,7 @@
 			(symbol "SP1103C-01UTG_1_0_0"
 				(polyline
 					(pts
-						(xy -1.524 0.762) (xy -1.27 1.27)
+						(xy -1.27 1.27) (xy -1.524 0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -15388,7 +15436,43 @@
 				)
 				(polyline
 					(pts
+						(xy 0 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -15424,6 +15508,18 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 3.81) (xy -1.27 3.81) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.54)
@@ -15443,7 +15539,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 6.35 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -15756,7 +15852,7 @@
 			(symbol "SP1103C-01UTG_2_0_0"
 				(polyline
 					(pts
-						(xy -1.524 0.762) (xy -1.27 1.27)
+						(xy -1.27 1.27) (xy -1.524 0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -15792,7 +15888,43 @@
 				)
 				(polyline
 					(pts
+						(xy 0 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -15828,6 +15960,18 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 3.81) (xy -1.27 3.81) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.54)
@@ -15847,7 +15991,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 6.35 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -16160,7 +16304,7 @@
 			(symbol "SP1103C-01UTG_3_0_0"
 				(polyline
 					(pts
-						(xy -1.524 0.762) (xy -1.27 1.27)
+						(xy -1.27 1.27) (xy -1.524 0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -16196,7 +16340,43 @@
 				)
 				(polyline
 					(pts
+						(xy 0 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -16232,6 +16412,18 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 3.81) (xy -1.27 3.81) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.54)
@@ -16251,7 +16443,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 6.35 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -20914,28 +21106,10 @@
 		(uuid "0b10b465-b3d5-4f15-9c43-0283e8432411")
 	)
 	(junction
-		(at 115.57 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fe5af56-ec48-45c2-91fb-daeb2dfa8899")
-	)
-	(junction
 		(at 247.65 85.09)
 		(diameter 1.27)
 		(color 0 0 0 1)
 		(uuid "16336754-e16b-4db6-932c-5e89400f5ca1")
-	)
-	(junction
-		(at 144.78 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17a3cba7-847d-45b6-b3f8-8274a940d38a")
-	)
-	(junction
-		(at 40.64 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18ec0b5b-a19c-4c32-8361-f5267f83005d")
 	)
 	(junction
 		(at 115.57 88.9)
@@ -20944,10 +21118,10 @@
 		(uuid "1a065244-7dba-4717-b2fa-69625424d2fd")
 	)
 	(junction
-		(at 182.88 96.52)
+		(at 97.79 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d8699b3-e3f0-4d4f-a75c-a72ad717b128")
+		(uuid "1d649163-ca12-4756-b5f9-ab3b69ee33d6")
 	)
 	(junction
 		(at 207.01 90.17)
@@ -20960,6 +21134,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f7efa9c-3297-4643-8a4a-996f147fb6f4")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20158d3e-be96-40f4-800c-1dc76c6829d8")
 	)
 	(junction
 		(at 246.38 143.51)
@@ -20980,22 +21160,16 @@
 		(uuid "2c5ba44b-e23d-4987-91ea-6e18b00c192b")
 	)
 	(junction
-		(at 30.48 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d0582d3-0154-4a67-bfc6-091e9e2cfc4f")
-	)
-	(junction
 		(at 179.07 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e5968c5-6f38-4d8a-bcb6-80fcf18beef7")
 	)
 	(junction
-		(at 191.77 96.52)
+		(at 182.88 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2fa47403-a713-44ac-8b10-91771c0fcb07")
+		(uuid "2e5aafcc-50d3-4736-ab78-15fc9dcb460d")
 	)
 	(junction
 		(at 255.27 123.19)
@@ -21076,12 +21250,6 @@
 		(uuid "565910ce-610a-437e-948e-318fce20b1a6")
 	)
 	(junction
-		(at 97.79 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "579810f2-0d21-42bb-bb97-a9eaea23d569")
-	)
-	(junction
 		(at 191.77 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21136,6 +21304,12 @@
 		(uuid "63724d9a-0c78-41a3-8e38-ce683e58979a")
 	)
 	(junction
+		(at 191.77 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67cdcc3c-b2a0-4b29-a88e-f90c61a8c5e4")
+	)
+	(junction
 		(at 34.29 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21146,12 +21320,6 @@
 		(diameter 1.27)
 		(color 0 0 0 1)
 		(uuid "6da61313-85c2-4f01-9f23-4351c381c962")
-	)
-	(junction
-		(at 173.99 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71ab81f7-1193-469e-b40e-63f7ae433ed4")
 	)
 	(junction
 		(at 60.96 41.91)
@@ -21170,6 +21338,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74cba576-d424-4770-9eaf-86000922dbf9")
+	)
+	(junction
+		(at 30.48 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "757229d5-1c1b-4dad-87a2-12c55aae104d")
 	)
 	(junction
 		(at 233.68 93.98)
@@ -21196,12 +21370,6 @@
 		(uuid "872d4a52-166d-4f7d-b926-03bb4b9f2321")
 	)
 	(junction
-		(at 106.68 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87b60be4-bfaf-499b-9e0c-a325d3c7a4fd")
-	)
-	(junction
 		(at 104.14 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21212,6 +21380,12 @@
 		(diameter 1.27)
 		(color 255 0 0 1)
 		(uuid "87eef641-77bd-4c0b-a809-10fde1f6962c")
+	)
+	(junction
+		(at 173.99 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8895a088-1199-4edc-b69f-eaf018f51e68")
 	)
 	(junction
 		(at 123.19 54.61)
@@ -21238,10 +21412,10 @@
 		(uuid "8daf2c62-7d31-4faf-8120-0ae05f26cc17")
 	)
 	(junction
-		(at 30.48 149.86)
+		(at 30.48 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "943636d8-5025-4a85-b8e0-5bf1094dc46a")
+		(uuid "963b28c3-d742-4772-a4a1-1c84b3841005")
 	)
 	(junction
 		(at 48.26 93.98)
@@ -21262,16 +21436,16 @@
 		(uuid "9dbde2a6-049f-4894-b32c-984dabbd1e67")
 	)
 	(junction
-		(at 153.67 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a42e15fa-c749-447d-956f-adcc17707f9f")
-	)
-	(junction
 		(at 113.03 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af0c2fc4-e771-42b4-a7db-35719365f0d8")
+	)
+	(junction
+		(at 153.67 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb654fd-7c6a-4ea1-900b-142e29d102f1")
 	)
 	(junction
 		(at 52.07 97.79)
@@ -21286,10 +21460,28 @@
 		(uuid "b276b1c6-850e-449f-812d-560e6d9984a3")
 	)
 	(junction
+		(at 106.68 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b72362f8-9405-4968-aa6e-b8ae053ea8c5")
+	)
+	(junction
 		(at 209.55 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba142f17-7e1d-4a96-901f-f2305ac8ae84")
+	)
+	(junction
+		(at 40.64 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8963e39-7690-4fef-8298-c2ddaa70ddbc")
+	)
+	(junction
+		(at 115.57 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94c0572-c8c1-49e2-8a46-d75851a521ea")
 	)
 	(junction
 		(at 195.58 54.61)
@@ -21301,7 +21493,7 @@
 		(at 135.89 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb944243-83e4-4168-8f9a-836504631487")
+		(uuid "cb970ce8-6088-4d6c-8b4c-6841ca0b7c0a")
 	)
 	(junction
 		(at 255.27 130.81)
@@ -21456,6 +21648,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 88.9) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bec3c3-731a-46ea-a53d-e82aaf29a59e")
+	)
+	(wire
+		(pts
+			(xy 97.79 90.17) (xy 97.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08db2cd3-cb6e-43cc-bbd7-c018602dde04")
+	)
+	(wire
+		(pts
 			(xy 91.44 88.9) (xy 97.79 88.9)
 		)
 		(stroke
@@ -21600,7 +21812,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 96.52) (xy 173.99 95.25)
+			(xy 173.99 99.06) (xy 173.99 96.52)
 		)
 		(stroke
 			(width 0)
@@ -21628,16 +21840,6 @@
 			(type default)
 		)
 		(uuid "13e6f38b-022f-4447-99a5-56175fcff1a5")
-	)
-	(wire
-		(pts
-			(xy 153.67 91.44) (xy 153.67 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e104fc-6104-479d-888c-925816c67234")
 	)
 	(wire
 		(pts
@@ -21896,7 +22098,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 91.44) (xy 115.57 96.52)
+			(xy 115.57 91.44) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -21913,6 +22115,16 @@
 			(type default)
 		)
 		(uuid "2dd068c4-0813-4199-8f2d-efd274592763")
+	)
+	(wire
+		(pts
+			(xy 135.89 90.17) (xy 135.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e45bae5-dfe7-4836-b07a-3162cdff1ebd")
 	)
 	(wire
 		(pts
@@ -22067,16 +22279,6 @@
 			(type default)
 		)
 		(uuid "3dd9b897-33d3-4cfb-a3e3-a55e511a197f")
-	)
-	(wire
-		(pts
-			(xy 40.64 149.86) (xy 30.48 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f9f68cc-29e2-4281-a3d4-571a8c289d81")
 	)
 	(wire
 		(pts
@@ -22244,6 +22446,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 99.06) (xy 135.89 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5d5ef4-1bdd-45c9-9526-b7d6eb489b51")
+	)
+	(wire
+		(pts
 			(xy 259.08 29.21) (xy 265.43 29.21)
 		)
 		(stroke
@@ -22272,6 +22484,16 @@
 			(type default)
 		)
 		(uuid "4cdb1c4f-ee11-406d-a5d4-71129b8b19f6")
+	)
+	(wire
+		(pts
+			(xy 30.48 149.86) (xy 40.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e17340f-926d-4464-beac-99b45042abd5")
 	)
 	(wire
 		(pts
@@ -22315,7 +22537,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 96.52) (xy 153.67 96.52)
+			(xy 144.78 99.06) (xy 153.67 99.06)
 		)
 		(stroke
 			(width 0)
@@ -22499,7 +22721,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 96.52) (xy 115.57 96.52)
+			(xy 106.68 99.06) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -22690,16 +22912,6 @@
 			(type default)
 		)
 		(uuid "7a1c26f3-341f-4283-98cb-23fac9537dee")
-	)
-	(wire
-		(pts
-			(xy 30.48 139.7) (xy 30.48 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7acca0d8-3733-4466-9360-7f6922447c02")
 	)
 	(wire
 		(pts
@@ -22998,16 +23210,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 96.52) (xy 182.88 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9501f9c4-f14f-4754-a8ce-ee846685154b")
-	)
-	(wire
-		(pts
 			(xy 255.27 135.89) (xy 255.27 140.97)
 		)
 		(stroke
@@ -23037,6 +23239,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "9678e921-e972-4a0a-b67f-7ecbff8eb6d8")
+	)
+	(wire
+		(pts
+			(xy 40.64 149.86) (xy 40.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9686cd46-38a6-43b6-950e-136680b88d06")
 	)
 	(wire
 		(pts
@@ -23221,16 +23433,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 96.52) (xy 144.78 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab3910a7-7895-45ef-9144-94bf38b99e4c")
-	)
-	(wire
-		(pts
 			(xy 240.03 29.21) (xy 246.38 29.21)
 		)
 		(stroke
@@ -23261,16 +23463,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 97.79) (xy 115.57 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afcc2f1b-4783-46cb-ae70-3efd53f2ee0d")
-	)
-	(wire
-		(pts
 			(xy 123.19 54.61) (xy 133.35 54.61)
 		)
 		(stroke
@@ -23278,16 +23470,6 @@
 			(type default)
 		)
 		(uuid "b116b109-9b8d-4efb-8643-ba6e383c07ff")
-	)
-	(wire
-		(pts
-			(xy 40.64 149.86) (xy 40.64 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b11d21f5-345f-4982-b56f-488bbf2c0fa0")
 	)
 	(wire
 		(pts
@@ -23321,13 +23503,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 153.67 96.52)
+			(xy 97.79 99.06) (xy 97.79 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4ed5999-1284-4c39-b332-dfb04a407e3f")
+		(uuid "b47a92b9-5292-4a4d-82d7-290f369e2fee")
 	)
 	(wire
 		(pts
@@ -23618,6 +23800,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 91.44) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34c4c3d-e4b5-4202-9058-1d1ab7035881")
+	)
+	(wire
+		(pts
 			(xy 186.69 31.75) (xy 186.69 33.02)
 		)
 		(stroke
@@ -23718,6 +23910,16 @@
 			(type default)
 		)
 		(uuid "d82022b1-6e39-4b14-9b80-3a49006473dc")
+	)
+	(wire
+		(pts
+			(xy 135.89 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2a6f51-f57a-4413-8c48-87470e94820e")
 	)
 	(wire
 		(pts
@@ -23844,6 +24046,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 97.79) (xy 182.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e614b27b-9df1-4bdf-a723-ccec76681537")
+	)
+	(wire
+		(pts
 			(xy 179.07 44.45) (xy 179.07 41.91)
 		)
 		(stroke
@@ -23954,7 +24166,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 96.52) (xy 182.88 96.52)
+			(xy 173.99 99.06) (xy 182.88 99.06)
 		)
 		(stroke
 			(width 0)
@@ -23964,7 +24176,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 96.52) (xy 106.68 96.52)
+			(xy 97.79 99.06) (xy 106.68 99.06)
 		)
 		(stroke
 			(width 0)
@@ -23974,7 +24186,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 97.79) (xy 191.77 96.52)
+			(xy 191.77 99.06) (xy 191.77 96.52)
 		)
 		(stroke
 			(width 0)
@@ -24025,7 +24237,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 96.52) (xy 191.77 96.52)
+			(xy 182.88 99.06) (xy 191.77 99.06)
 		)
 		(stroke
 			(width 0)
@@ -24042,16 +24254,6 @@
 			(type default)
 		)
 		(uuid "fb2ffcf1-02f9-441f-9d34-8d69ef75d575")
-	)
-	(wire
-		(pts
-			(xy 30.48 148.59) (xy 30.48 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb4af3ff-35b4-4b2b-89c9-1f3ed7daade3")
 	)
 	(wire
 		(pts
@@ -25506,7 +25708,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 97.79 0)
+		(at 115.57 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25516,7 +25718,7 @@
 		(dnp no)
 		(uuid "010fab92-928c-4038-b758-63149a6837a9")
 		(property "Reference" "#PWR019"
-			(at 115.57 104.14 0)
+			(at 115.57 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25527,7 +25729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 101.6 0)
+			(at 115.57 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25537,7 +25739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 97.79 0)
+			(at 115.57 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25548,7 +25750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 97.79 0)
+			(at 115.57 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25559,7 +25761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 97.79 0)
+			(at 115.57 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25725,7 +25927,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 40.64 151.892 0)
+			(at 40.132 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25782,7 +25984,7 @@
 	(symbol
 		(lib_name "C_0603_10nF_50V_1")
 		(lib_id "C_capacitors_ceramic:C_0603_10nF_50V")
-		(at 97.79 92.71 90)
+		(at 97.79 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25792,7 +25994,7 @@
 		(dnp no)
 		(uuid "044728a1-060e-403f-980b-983540b5ffb0")
 		(property "Reference" "C9"
-			(at 100.33 91.186 90)
+			(at 100.33 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25803,7 +26005,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 99.568 93.218 90)
+			(at 99.568 94.488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25814,7 +26016,7 @@
 			)
 		)
 		(property "Footprint" "passives_smd:C_0603"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25825,7 +26027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25836,7 +26038,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10000PF 50V X7R 0603"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25847,7 +26049,7 @@
 			)
 		)
 		(property "PARTNO" "KGM15AR71H103KT"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25858,7 +26060,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25869,7 +26071,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25880,7 +26082,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25891,7 +26093,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25902,7 +26104,7 @@
 			)
 		)
 		(property "VOLTAGE" "50"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25913,7 +26115,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25924,7 +26126,7 @@
 			)
 		)
 		(property "TEMP. COEFF." "X7R"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25935,7 +26137,7 @@
 			)
 		)
 		(property "MANUFACTURER" "KYOCERA AVX"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25946,7 +26148,7 @@
 			)
 		)
 		(property "DIGIKEY_PN_CT" "478-KGM15AR71H103KTCT-ND"
-			(at 97.79 92.71 0)
+			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26815,7 +27017,7 @@
 	(symbol
 		(lib_name "SP1103C-01UTG_2")
 		(lib_id "D_diodes_tvs:SP1103C-01UTG")
-		(at 106.68 92.71 0)
+		(at 106.68 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26825,7 +27027,7 @@
 		(dnp no)
 		(uuid "120c9af4-18d2-46d1-8cba-a2c3ab2d6a0f")
 		(property "Reference" "TVS3"
-			(at 108.458 91.694 0)
+			(at 108.458 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26836,7 +27038,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 108.966 93.726 0)
+			(at 108.966 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26847,7 +27049,7 @@
 			)
 		)
 		(property "Footprint" "diodes_smd:2-DFN_(1.6x1)"
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26859,7 +27061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26871,7 +27073,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 3.3VWM 9VC 2DFN"
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26882,7 +27084,7 @@
 			)
 		)
 		(property "PARTNO" "SP1103C-01UTG"
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26893,7 +27095,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26904,7 +27106,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26915,7 +27117,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26926,7 +27128,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26937,7 +27139,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Littelfuse Inc."
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26948,7 +27150,7 @@
 			)
 		)
 		(property "DIGIKEY_PN_CT" "F10154CT-ND"
-			(at 106.68 92.71 0)
+			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30725,7 +30927,7 @@
 	(symbol
 		(lib_name "SP1103C-01UTG_1")
 		(lib_id "D_diodes_tvs:SP1103C-01UTG")
-		(at 30.48 144.78 0)
+		(at 30.48 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30735,7 +30937,7 @@
 		(dnp no)
 		(uuid "3f602566-b312-4ff6-9e5d-0f15280f6009")
 		(property "Reference" "TVS6"
-			(at 23.622 144.272 0)
+			(at 23.622 145.542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30746,7 +30948,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 23.876 146.304 0)
+			(at 23.876 147.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30757,7 +30959,7 @@
 			)
 		)
 		(property "Footprint" "diodes_smd:2-DFN_(1.6x1)"
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30769,7 +30971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30781,7 +30983,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 3.3VWM 9VC 2DFN"
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30792,7 +30994,7 @@
 			)
 		)
 		(property "PARTNO" "SP1103C-01UTG"
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30803,7 +31005,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30814,7 +31016,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30825,7 +31027,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30836,7 +31038,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30847,7 +31049,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Littelfuse Inc."
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30858,7 +31060,7 @@
 			)
 		)
 		(property "DIGIKEY_PN_CT" "F10154CT-ND"
-			(at 30.48 144.78 0)
+			(at 30.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31511,7 +31713,7 @@
 	(symbol
 		(lib_name "SP1103C-01UTG_3")
 		(lib_id "D_diodes_tvs:SP1103C-01UTG")
-		(at 144.78 92.71 0)
+		(at 144.78 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31521,7 +31723,7 @@
 		(dnp no)
 		(uuid "511b2ef8-bcb4-4ab3-bc45-ad1431a37d05")
 		(property "Reference" "TVS4"
-			(at 146.304 91.186 0)
+			(at 146.304 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31532,7 +31734,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 146.812 93.726 0)
+			(at 146.812 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31543,7 +31745,7 @@
 			)
 		)
 		(property "Footprint" "diodes_smd:2-DFN_(1.6x1)"
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31555,7 +31757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31567,7 +31769,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 3.3VWM 9VC 2DFN"
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31578,7 +31780,7 @@
 			)
 		)
 		(property "PARTNO" "SP1103C-01UTG"
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31589,7 +31791,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31600,7 +31802,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31611,7 +31813,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31622,7 +31824,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31633,7 +31835,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Littelfuse Inc."
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31644,7 +31846,7 @@
 			)
 		)
 		(property "DIGIKEY_PN_CT" "F10154CT-ND"
-			(at 144.78 92.71 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31815,7 +32017,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 97.79 0)
+		(at 153.67 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31825,7 +32027,7 @@
 		(dnp no)
 		(uuid "53d5d029-b207-4e1c-843d-b278810c4fda")
 		(property "Reference" "#PWR020"
-			(at 153.67 104.14 0)
+			(at 153.67 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31836,7 +32038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 101.6 0)
+			(at 153.67 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31846,7 +32048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 97.79 0)
+			(at 153.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31857,7 +32059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 97.79 0)
+			(at 153.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31868,7 +32070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 97.79 0)
+			(at 153.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33453,7 +33655,7 @@
 	)
 	(symbol
 		(lib_id "C_capacitors_ceramic:C_0603_10nF_50V")
-		(at 173.99 91.44 90)
+		(at 173.99 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33463,7 +33665,7 @@
 		(dnp no)
 		(uuid "6562c2d7-b392-4c39-a7dc-65972bb8052d")
 		(property "Reference" "C8"
-			(at 176.276 91.44 90)
+			(at 176.276 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33474,7 +33676,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 175.768 93.218 90)
+			(at 175.768 94.488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33485,7 +33687,7 @@
 			)
 		)
 		(property "Footprint" "passives_smd:C_0603"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33496,7 +33698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33507,7 +33709,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10000PF 50V X7R 0603"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33518,7 +33720,7 @@
 			)
 		)
 		(property "PARTNO" "KGM15AR71H103KT"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33529,7 +33731,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33540,7 +33742,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33551,7 +33753,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33562,7 +33764,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33573,7 +33775,7 @@
 			)
 		)
 		(property "VOLTAGE" "50"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33584,7 +33786,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33595,7 +33797,7 @@
 			)
 		)
 		(property "TEMP. COEFF." "X7R"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33606,7 +33808,7 @@
 			)
 		)
 		(property "MANUFACTURER" "KYOCERA AVX"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33617,7 +33819,7 @@
 			)
 		)
 		(property "DIGIKEY_PN_CT" "478-KGM15AR71H103KTCT-ND"
-			(at 173.99 91.44 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38601,7 +38803,7 @@
 	(symbol
 		(lib_name "C_0603_10nF_50V_2")
 		(lib_id "C_capacitors_ceramic:C_0603_10nF_50V")
-		(at 135.89 92.71 90)
+		(at 135.89 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38611,7 +38813,7 @@
 		(dnp no)
 		(uuid "aa9e598c-79fb-40d1-b24c-2cf95d22a063")
 		(property "Reference" "C10"
-			(at 138.43 91.186 90)
+			(at 138.43 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38622,7 +38824,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 137.668 93.218 90)
+			(at 137.668 94.488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38633,7 +38835,7 @@
 			)
 		)
 		(property "Footprint" "passives_smd:C_0603"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38644,7 +38846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38655,7 +38857,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10000PF 50V X7R 0603"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38666,7 +38868,7 @@
 			)
 		)
 		(property "PARTNO" "KGM15AR71H103KT"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38677,7 +38879,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38688,7 +38890,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38699,7 +38901,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38710,7 +38912,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38721,7 +38923,7 @@
 			)
 		)
 		(property "VOLTAGE" "50"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38732,7 +38934,7 @@
 			)
 		)
 		(property "TOLERANCE" "10%"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38743,7 +38945,7 @@
 			)
 		)
 		(property "TEMP. COEFF." "X7R"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38754,7 +38956,7 @@
 			)
 		)
 		(property "MANUFACTURER" "KYOCERA AVX"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38765,7 +38967,7 @@
 			)
 		)
 		(property "DIGIKEY_PN_CT" "478-KGM15AR71H103KTCT-ND"
-			(at 135.89 92.71 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41589,7 +41791,7 @@
 	)
 	(symbol
 		(lib_id "D_diodes_tvs:SP1103C-01UTG")
-		(at 182.88 91.44 0)
+		(at 182.88 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41599,7 +41801,7 @@
 		(dnp no)
 		(uuid "d63e4ba4-d2ee-4b78-b42e-821589ddc571")
 		(property "Reference" "TVS2"
-			(at 184.15 92.202 0)
+			(at 184.15 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41610,7 +41812,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 184.658 94.488 0)
+			(at 184.658 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41621,7 +41823,7 @@
 			)
 		)
 		(property "Footprint" "diodes_smd:2-DFN_(1.6x1)"
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41633,7 +41835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41645,7 +41847,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 3.3VWM 9VC 2DFN"
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41656,7 +41858,7 @@
 			)
 		)
 		(property "PARTNO" "SP1103C-01UTG"
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41667,7 +41869,7 @@
 			)
 		)
 		(property "VER" "1"
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41678,7 +41880,7 @@
 			)
 		)
 		(property "REV" "0"
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41689,7 +41891,7 @@
 			)
 		)
 		(property "CRITICAL" ""
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41700,7 +41902,7 @@
 			)
 		)
 		(property "EXTERNAL" ""
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41711,7 +41913,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Littelfuse Inc."
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41722,7 +41924,7 @@
 			)
 		)
 		(property "DIGIKEY_PN_CT" "F10154CT-ND"
-			(at 182.88 91.44 0)
+			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41992,7 +42194,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 97.79 0)
+		(at 191.77 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42002,7 +42204,7 @@
 		(dnp no)
 		(uuid "ddbe3c4f-19f6-46a0-af90-7aea47ddb7d0")
 		(property "Reference" "#PWR021"
-			(at 191.77 104.14 0)
+			(at 191.77 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42013,7 +42215,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 101.6 0)
+			(at 191.77 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42023,7 +42225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 97.79 0)
+			(at 191.77 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42034,7 +42236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 97.79 0)
+			(at 191.77 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42045,7 +42247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 97.79 0)
+			(at 191.77 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
